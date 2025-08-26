@@ -14,5 +14,13 @@
     "lastpushDate": "2025-08-20T12:19:19.729Z",
     "gitVersionName": "v2-multi edit",
     "lastCommitUser": "Main Admin"
+  },
+  "88579f48-12f3-4698-8244-a523c96fc283": {
+    "gitAppName": "tj-app",
+    "lastCommitMessage": " v1 Version of app tj-app promoted from development to staging",
+    "gitVersionId": "23f0349d-1899-4a89-ac8b-6128b84bd23d",
+    "lastpushDate": "2025-08-26T11:30:20.292Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "VAMSHI "
   }
 }
