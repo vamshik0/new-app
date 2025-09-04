@@ -17,10 +17,10 @@
   },
   "88579f48-12f3-4698-8244-a523c96fc283": {
     "gitAppName": "tj-app",
-    "lastCommitMessage": " v11 Version of app tj-app promoted from development to staging",
-    "gitVersionId": "deb4d31e-0125-41fc-a442-1f5295b3f4a8",
-    "lastpushDate": "2025-09-04T05:12:24.289Z",
-    "gitVersionName": "v11",
+    "lastCommitMessage": " v12 Version of app tj-app promoted from development to staging",
+    "gitVersionId": "565c71fe-4f9a-4027-b1b6-841b820ea8dd",
+    "lastpushDate": "2025-09-04T06:41:08.798Z",
+    "gitVersionName": "v12",
     "lastCommitUser": "dev "
   }
 }
