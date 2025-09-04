@@ -17,10 +17,10 @@
   },
   "88579f48-12f3-4698-8244-a523c96fc283": {
     "gitAppName": "ToolJet app",
-    "lastCommitMessage": " v15 Version of app ToolJet app promoted from development to staging",
-    "gitVersionId": "25118aa3-5f81-44f3-95db-8d280db00036",
-    "lastpushDate": "2025-09-04T12:02:00.703Z",
-    "gitVersionName": "v15",
+    "lastCommitMessage": " v16 Version of app ToolJet app promoted from development to staging",
+    "gitVersionId": "3e227b99-5ca9-4580-b566-7f647c740940",
+    "lastpushDate": "2025-09-04T12:10:32.104Z",
+    "gitVersionName": "v16",
     "lastCommitUser": "dev "
   }
 }
