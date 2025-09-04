@@ -258,13 +258,13 @@
         "appV2": {
           "id": "88579f48-12f3-4698-8244-a523c96fc283",
           "type": "front-end",
-          "name": "tj-app",
+          "name": "ToolJet app",
           "slug": "tj-app",
           "isPublic": null,
           "isMaintenanceOn": false,
           "icon": "menuhome",
           "organizationId": "d284045c-ad37-4658-9799-12922707a680",
-          "currentVersionId": "0534c09c-dbba-4867-a1b6-873245be2cdf",
+          "currentVersionId": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
           "userId": "87741c37-0f74-43c3-985c-b3d0683cb498",
           "workflowApiToken": null,
           "workflowEnabled": false,
@@ -274,7 +274,7 @@
           "aiGenerationMetadata": null,
           "createdAt": "2025-08-25T08:19:27.135Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2025-09-04T06:49:39.788Z",
+          "updatedAt": "2025-09-04T07:02:51.736Z",
           "editingVersion": {
             "id": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
             "name": "v14",
@@ -292,10 +292,10 @@
             "showViewerNavigation": true,
             "homePageId": "41a58229-d17f-441c-baa0-615169d56cb5",
             "appId": "88579f48-12f3-4698-8244-a523c96fc283",
-            "currentEnvironmentId": "f085d106-2118-4bdc-99cf-de4e9d00738a",
+            "currentEnvironmentId": "4c1b7eb9-a32f-4dd2-af13-49fea6c16a20",
             "promotedFrom": null,
             "createdAt": "2025-09-04T06:51:19.482Z",
-            "updatedAt": "2025-09-04T06:52:14.960Z"
+            "updatedAt": "2025-09-04T06:52:19.560Z"
           },
           "components": [
             {
@@ -2743,7 +2743,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
               "createdAt": "2025-09-04T06:51:19.468Z",
-              "updatedAt": "2025-09-04T06:51:22.875Z"
+              "updatedAt": "2025-09-04T07:02:39.912Z"
             },
             {
               "id": "58a3878e-207f-422d-aae6-ed8a6c3fb39c",
@@ -2877,7 +2877,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
               "createdAt": "2025-09-04T06:51:19.468Z",
-              "updatedAt": "2025-09-04T06:51:23.386Z"
+              "updatedAt": "2025-09-04T07:02:39.503Z"
             },
             {
               "id": "97991454-07e6-49ad-8610-f91d70df5942",
@@ -3097,7 +3097,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
               "createdAt": "2025-09-04T06:51:19.468Z",
-              "updatedAt": "2025-09-04T06:51:24.758Z"
+              "updatedAt": "2025-09-04T07:02:40.485Z"
             },
             {
               "id": "6ee95ae1-3da9-40c7-a187-899d9a8fbe69",
@@ -3678,7 +3678,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
               "createdAt": "2025-09-04T06:51:19.468Z",
-              "updatedAt": "2025-09-04T06:51:24.338Z"
+              "updatedAt": "2025-09-04T07:02:40.453Z"
             },
             {
               "id": "56dfa1e6-1e95-4fac-8d3f-40da82582f3b",
@@ -3818,7 +3818,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
               "createdAt": "2025-09-04T06:51:19.468Z",
-              "updatedAt": "2025-09-04T06:51:23.929Z"
+              "updatedAt": "2025-09-04T07:02:39.098Z"
             },
             {
               "id": "4b1bc095-5c4e-4ad3-aede-0ecbd15747dd",
@@ -3961,10 +3961,10 @@
               "showViewerNavigation": true,
               "homePageId": "41a58229-d17f-441c-baa0-615169d56cb5",
               "appId": "88579f48-12f3-4698-8244-a523c96fc283",
-              "currentEnvironmentId": "f085d106-2118-4bdc-99cf-de4e9d00738a",
+              "currentEnvironmentId": "4c1b7eb9-a32f-4dd2-af13-49fea6c16a20",
               "promotedFrom": null,
               "createdAt": "2025-09-04T06:51:19.482Z",
-              "updatedAt": "2025-09-04T06:52:14.960Z"
+              "updatedAt": "2025-09-04T06:52:19.560Z"
             }
           ],
           "appEnvironments": [

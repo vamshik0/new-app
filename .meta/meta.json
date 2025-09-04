@@ -16,10 +16,10 @@
     "lastCommitUser": "Main Admin"
   },
   "88579f48-12f3-4698-8244-a523c96fc283": {
-    "gitAppName": "tj-app",
-    "lastCommitMessage": " v14 Version of app tj-app promoted from development to staging",
+    "gitAppName": "ToolJet app",
+    "lastCommitMessage": "App tj-app is renamed to ToolJet app",
     "gitVersionId": "c9d16cfc-ac33-47d6-b812-c7f2b432b33d",
-    "lastpushDate": "2025-09-04T06:52:18.057Z",
+    "lastpushDate": "2025-09-04T07:02:53.066Z",
     "gitVersionName": "v14",
     "lastCommitUser": "dev "
   }
