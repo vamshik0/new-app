@@ -258,13 +258,13 @@
         "appV2": {
           "id": "88579f48-12f3-4698-8244-a523c96fc283",
           "type": "front-end",
-          "name": "ToolJet app",
+          "name": "DON'T DELETE",
           "slug": "tooljet-app",
           "isPublic": true,
           "isMaintenanceOn": false,
           "icon": "menuhome",
           "organizationId": "d284045c-ad37-4658-9799-12922707a680",
-          "currentVersionId": "25118aa3-5f81-44f3-95db-8d280db00036",
+          "currentVersionId": "3e227b99-5ca9-4580-b566-7f647c740940",
           "userId": "87741c37-0f74-43c3-985c-b3d0683cb498",
           "workflowApiToken": null,
           "workflowEnabled": false,
@@ -274,10 +274,10 @@
           "aiGenerationMetadata": null,
           "createdAt": "2025-08-25T08:19:27.135Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2025-09-04T12:02:05.729Z",
+          "updatedAt": "2025-09-17T08:19:02.931Z",
           "editingVersion": {
-            "id": "3e227b99-5ca9-4580-b566-7f647c740940",
-            "name": "v16",
+            "id": "c1b3661b-710a-4b81-8a2a-bcf559ee2045",
+            "name": "v17",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -290,12 +290,12 @@
             },
             "pageSettings": null,
             "showViewerNavigation": true,
-            "homePageId": "91f0babb-e610-4a20-b85f-f49b5457b4ed",
+            "homePageId": "1557481d-5da9-4359-a921-cc588433ebec",
             "appId": "88579f48-12f3-4698-8244-a523c96fc283",
-            "currentEnvironmentId": "f085d106-2118-4bdc-99cf-de4e9d00738a",
+            "currentEnvironmentId": "eb206081-077e-4add-8168-c43077a848ae",
             "promotedFrom": null,
-            "createdAt": "2025-09-04T12:04:10.977Z",
-            "updatedAt": "2025-09-04T12:10:28.347Z"
+            "createdAt": "2025-09-04T12:16:32.100Z",
+            "updatedAt": "2025-09-04T12:16:32.082Z"
           },
           "components": [
             {
@@ -2819,7 +2819,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "3e227b99-5ca9-4580-b566-7f647c740940",
               "createdAt": "2025-09-04T12:04:10.960Z",
-              "updatedAt": "2025-09-04T12:04:14.973Z"
+              "updatedAt": "2025-09-04T12:10:37.075Z"
             },
             {
               "id": "6b525920-c31f-4a74-bd8a-0561db1aa923",
@@ -2883,7 +2883,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "3e227b99-5ca9-4580-b566-7f647c740940",
               "createdAt": "2025-09-04T12:04:10.960Z",
-              "updatedAt": "2025-09-04T12:04:15.455Z"
+              "updatedAt": "2025-09-04T12:10:37.492Z"
             },
             {
               "id": "996f27b6-0748-4078-8bf3-7c6430d42b99",
@@ -3115,7 +3115,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "3e227b99-5ca9-4580-b566-7f647c740940",
               "createdAt": "2025-09-04T12:04:10.960Z",
-              "updatedAt": "2025-09-04T12:04:15.997Z"
+              "updatedAt": "2025-09-04T12:10:38.428Z"
             },
             {
               "id": "72005f82-63d0-4fcb-b396-00de7246f072",
@@ -3431,7 +3431,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "3e227b99-5ca9-4580-b566-7f647c740940",
               "createdAt": "2025-09-04T12:04:10.960Z",
-              "updatedAt": "2025-09-04T12:10:31.966Z"
+              "updatedAt": "2025-09-04T12:10:38.434Z"
             },
             {
               "id": "e1c59680-52e8-4a8c-81a6-0356a2a44553",
@@ -3755,7 +3755,7 @@
               "dataSourceId": "92a21c7b-6df0-45c7-a564-241c51a2be40",
               "appVersionId": "3e227b99-5ca9-4580-b566-7f647c740940",
               "createdAt": "2025-09-04T12:04:10.960Z",
-              "updatedAt": "2025-09-04T12:10:31.506Z"
+              "updatedAt": "2025-09-04T12:10:37.903Z"
             },
             {
               "id": "c17d73b5-bb0e-495d-9abd-23678cc252ba",
@@ -3967,10 +3967,10 @@
               "showViewerNavigation": true,
               "homePageId": "91f0babb-e610-4a20-b85f-f49b5457b4ed",
               "appId": "88579f48-12f3-4698-8244-a523c96fc283",
-              "currentEnvironmentId": "f085d106-2118-4bdc-99cf-de4e9d00738a",
+              "currentEnvironmentId": "4c1b7eb9-a32f-4dd2-af13-49fea6c16a20",
               "promotedFrom": null,
               "createdAt": "2025-09-04T12:04:10.977Z",
-              "updatedAt": "2025-09-04T12:10:28.347Z"
+              "updatedAt": "2025-09-04T12:10:32.862Z"
             }
           ],
           "appEnvironments": [
