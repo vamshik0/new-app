@@ -24,8 +24,8 @@
           "updatedAt": "2025-11-05T12:36:41.940Z",
           "__loaded": true,
           "editingVersion": {
-            "id": "f4e2ea77-f053-4fda-9d14-cd0099dbe9b3",
-            "name": "v2_2",
+            "id": "f938bbb3-0a0e-4bb3-b938-abd698d40eb2",
+            "name": "v5",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -38,17 +38,17 @@
             },
             "pageSettings": null,
             "showViewerNavigation": true,
-            "homePageId": "6e1fbd6f-75e3-419c-80a4-3e79c7e8651d",
+            "homePageId": "1d1c6fe3-53f1-4a5f-9dca-376f43fd2517",
             "appId": "d2487c8f-465f-4cb1-8daa-1774f3b54f4b",
             "currentEnvironmentId": "9677adc3-f26b-46d8-8504-e9a61adec290",
             "promotedFrom": null,
-            "parentVersionId": "ff0ce18a-b7ff-464d-8d84-b2c8ebae2b41",
-            "status": "DRAFT",
-            "description": null,
+            "parentVersionId": "f4e2ea77-f053-4fda-9d14-cd0099dbe9b3",
+            "status": "PUBLISHED",
+            "description": "removed button- added table",
             "publishedAt": null,
             "releasedAt": null,
-            "createdAt": "2025-11-05T12:43:29.641Z",
-            "updatedAt": "2025-11-05T12:43:29.630Z"
+            "createdAt": "2025-11-05T12:45:31.566Z",
+            "updatedAt": "2025-11-05T12:46:05.261Z"
           },
           "components": [
             {
@@ -201,12 +201,12 @@
               "currentEnvironmentId": "9677adc3-f26b-46d8-8504-e9a61adec290",
               "promotedFrom": null,
               "parentVersionId": "ff0ce18a-b7ff-464d-8d84-b2c8ebae2b41",
-              "status": "DRAFT",
-              "description": null,
+              "status": "PUBLISHED",
+              "description": "only button",
               "publishedAt": null,
               "releasedAt": null,
               "createdAt": "2025-11-05T12:43:29.641Z",
-              "updatedAt": "2025-11-05T12:43:29.630Z"
+              "updatedAt": "2025-11-05T12:44:52.294Z"
             }
           ],
           "appEnvironments": [
