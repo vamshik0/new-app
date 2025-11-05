@@ -22,5 +22,13 @@
     "lastpushDate": "2025-09-17T08:19:04.206Z",
     "gitVersionName": "v16",
     "lastCommitUser": "dev "
+  },
+  "009d91c2-b071-4897-9b71-ad5c9eff956a": {
+    "gitAppName": "my-app",
+    "lastCommitMessage": "Version v6 Created of app my-app",
+    "gitVersionId": "2285b285-9410-4f2f-89dd-1b29e1dee0c0",
+    "lastpushDate": "2025-11-05T11:02:38.826Z",
+    "gitVersionName": "v6",
+    "lastCommitUser": "dev "
   }
 }
