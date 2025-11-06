@@ -49,10 +49,10 @@
   },
   "3c59934e-6597-49e4-ab17-a36ae43fceba": {
     "gitAppName": "new-pro",
-    "lastCommitMessage": "Version v1_1 Created of app new-pro",
+    "lastCommitMessage": "Version v1_1 is renamed to v2",
     "gitVersionId": "891bfdbe-8016-4700-91dc-3154aba8dd3f",
-    "lastpushDate": "2025-11-06T06:51:44.996Z",
-    "gitVersionName": "v1_1",
+    "lastpushDate": "2025-11-06T06:52:35.446Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "dev "
   }
 }
