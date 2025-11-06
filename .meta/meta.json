@@ -33,10 +33,10 @@
   },
   "d2487c8f-465f-4cb1-8daa-1774f3b54f4b": {
     "gitAppName": "team-app",
-    "lastCommitMessage": "Version v2_2.1 is renamed to v5",
-    "gitVersionId": "f4e2ea77-f053-4fda-9d14-cd0099dbe9b3",
-    "lastpushDate": "2025-11-05T12:46:09.246Z",
-    "gitVersionName": "v2_2",
+    "lastCommitMessage": " v4_1 Version of app team-app promoted from development to staging",
+    "gitVersionId": "c1437d44-719d-4ef6-ba14-a1842ccd94cb",
+    "lastpushDate": "2025-11-06T05:43:26.606Z",
+    "gitVersionName": "v4_1",
     "lastCommitUser": "dev "
   }
 }
