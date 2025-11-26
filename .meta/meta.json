@@ -65,10 +65,10 @@
   },
   "609ce228-52f9-4237-931a-cba50a4fd7a5": {
     "gitAppName": "trial-git-app",
-    "lastCommitMessage": " v1 Version of app trial-git-app promoted from development to staging",
-    "gitVersionId": "c3791ae5-0514-4f93-8130-7781c6bb5ee1",
-    "lastpushDate": "2025-11-26T11:23:19.495Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "Version v2 Created of app trial-git-app",
+    "gitVersionId": "5281bdf2-4078-46a7-b6e8-cfe56e83ed3f",
+    "lastpushDate": "2025-11-26T11:27:42.273Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "dev "
   }
 }
