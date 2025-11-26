@@ -24,8 +24,8 @@
           "updatedAt": "2025-11-26T11:23:19.593Z",
           "__loaded": true,
           "editingVersion": {
-            "id": "5281bdf2-4078-46a7-b6e8-cfe56e83ed3f",
-            "name": "v2",
+            "id": "97508594-9aaa-4190-bb35-ab5d8d4c4193",
+            "name": "v3",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -38,35 +38,50 @@
             },
             "pageSettings": null,
             "showViewerNavigation": true,
-            "homePageId": "4cbec3e0-1944-4f52-b9b8-77be88c3fdaa",
+            "homePageId": "77780d05-0e71-470f-9a04-f486e580cc7e",
             "appId": "609ce228-52f9-4237-931a-cba50a4fd7a5",
-            "currentEnvironmentId": "b9c5f14c-0392-4cdd-8906-a7644d32c4e8",
+            "currentEnvironmentId": "5073b250-b0dd-4684-9e35-18bd42e097ae",
             "promotedFrom": null,
-            "createdAt": "2025-11-26T11:27:40.047Z",
-            "updatedAt": "2025-11-26T11:28:09.278Z"
+            "createdAt": "2025-11-26T11:28:17.883Z",
+            "updatedAt": "2025-11-26T11:28:48.753Z"
           },
           "components": [
             {
-              "id": "6d9bd05c-cbfa-484b-8ef0-f0ed25b24566",
-              "name": "buttongroup1",
-              "type": "ButtonGroup",
-              "pageId": "4cbec3e0-1944-4f52-b9b8-77be88c3fdaa",
+              "id": "11eb4a1d-35b0-4683-b134-891292aad0a5",
+              "name": "chart1",
+              "type": "Chart",
+              "pageId": "77780d05-0e71-470f-9a04-f486e580cc7e",
               "parent": null,
               "properties": {
-                "label": {
-                  "value": "Button group"
+                "title": {
+                  "value": "This title can be changed"
                 },
-                "defaultSelected": {
-                  "value": "{{[1]}}"
+                "markerColor": {
+                  "value": "var(--cc-primary-brand)"
                 },
-                "values": {
-                  "value": "{{[1,2,3]}}"
+                "showAxes": {
+                  "value": "{{true}}"
                 },
-                "labels": {
-                  "value": "{{[]}}"
+                "showGridLines": {
+                  "value": "{{true}}"
                 },
-                "multiSelection": {
+                "plotFromJson": {
                   "value": "{{false}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "barmode": {
+                  "value": "group"
+                },
+                "jsonDescription": {
+                  "value": "{\n              \"data\": [\n                  {\n                      \"x\": [\n                          \"Jan\",\n                          \"Feb\",\n                          \"Mar\"\n                      ],\n                      \"y\": [\n                          100,\n                          80,\n                          40\n                      ],\n                      \"type\": \"bar\"\n                  }\n              ]\n          }"
+                },
+                "type": {
+                  "value": "line"
+                },
+                "data": {
+                  "value": "[\n    { \"x\": \"Jan\", \"y\": 100},\n    { \"x\": \"Feb\", \"y\": 80},\n    { \"x\": \"Mar\", \"y\": 40}\n  ]"
                 }
               },
               "general": {},
@@ -74,29 +89,20 @@
                 "backgroundColor": {
                   "value": "var(--cc-surface1-surface)"
                 },
-                "textColor": {
-                  "value": "var(--cc-primary-text)"
+                "padding": {
+                  "value": "50"
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
                 },
                 "visibility": {
                   "value": "{{true}}"
                 },
-                "borderRadius": {
-                  "value": "{{4}}"
-                },
                 "disabledState": {
                   "value": "{{false}}"
                 },
-                "selectedTextColor": {
-                  "value": "#FFFFFF"
-                },
-                "padding": {
-                  "value": "default"
-                },
-                "selectedBackgroundColor": {
-                  "value": "var(--cc-primary-brand)"
-                },
-                "alignment": {
-                  "value": "left"
+                "borderColor": {
+                  "value": "var(--cc-default-border)"
                 }
               },
               "generalStyles": {
@@ -113,109 +119,48 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-11-26T11:27:51.636Z",
-              "updatedAt": "2025-11-26T11:27:51.636Z",
+              "createdAt": "2025-11-26T11:28:23.333Z",
+              "updatedAt": "2025-11-26T11:28:23.333Z",
               "layouts": [
                 {
-                  "id": "d4fc42d4-a0fd-402f-b129-ed4c85f30348",
-                  "type": "mobile",
-                  "top": 140,
-                  "left": 2,
-                  "width": 12,
-                  "height": 80,
-                  "componentId": "6d9bd05c-cbfa-484b-8ef0-f0ed25b24566",
+                  "id": "444ab0f3-c23b-4ed7-97d2-ca431c646845",
+                  "type": "desktop",
+                  "top": 280,
+                  "left": 1,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "11eb4a1d-35b0-4683-b134-891292aad0a5",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-11-26T11:27:51.636Z"
+                  "updatedAt": "2025-11-26T11:28:39.883Z"
                 },
                 {
-                  "id": "ebadb05c-0beb-4abc-b19b-dd160a5789d4",
-                  "type": "desktop",
-                  "top": 140,
+                  "id": "8b5ed831-19a3-4bce-b914-72ca149de485",
+                  "type": "mobile",
+                  "top": 180,
                   "left": 2,
-                  "width": 12,
-                  "height": 80,
-                  "componentId": "6d9bd05c-cbfa-484b-8ef0-f0ed25b24566",
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "11eb4a1d-35b0-4683-b134-891292aad0a5",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-11-26T11:27:51.636Z"
+                  "updatedAt": "2025-11-26T11:28:23.333Z"
                 }
               ]
             },
             {
-              "id": "67a0e8d1-7eba-445a-9e03-85629de7896f",
-              "name": "popovermenu1",
-              "type": "PopoverMenu",
-              "pageId": "4cbec3e0-1944-4f52-b9b8-77be88c3fdaa",
+              "id": "98b91f65-bc69-4b20-92f7-0a79e030161a",
+              "name": "textinput1",
+              "type": "TextInput",
+              "pageId": "77780d05-0e71-470f-9a04-f486e580cc7e",
               "parent": null,
               "properties": {
+                "value": {
+                  "value": ""
+                },
                 "label": {
-                  "value": "Menu"
+                  "value": "Label"
                 },
-                "buttonType": {
-                  "value": "primary"
-                },
-                "trigger": {
-                  "value": "click"
-                },
-                "advanced": {
-                  "value": "{{false}}"
-                },
-                "schema": {
-                  "value": "{{[{\"label\":\"option1\",\"description\":\"\",\"value\":\"1\",\"icon\":\"IconBolt\", \"iconVisibility\":false, \"disable\":false,\"visible\":true},{\"label\":\"option2\",\"description\":\"\",\"value\":\"2\",\"icon\":\"IconBulb\", \"iconVisibility\":false, \"disable\":false,\"visible\":true},{\"label\":\"option3\",\"description\":\"\",\"value\":\"3\",\"icon\":\"IconTag\", \"iconVisibility\":false, \"disable\":false,\"visible\":true}]}}"
-                },
-                "options": {
-                  "value": [
-                    {
-                      "format": "plain",
-                      "label": "option1",
-                      "description": "",
-                      "value": "1",
-                      "icon": {
-                        "value": "IconBolt"
-                      },
-                      "iconVisibility": false,
-                      "disable": {
-                        "value": false
-                      },
-                      "visible": {
-                        "value": true
-                      }
-                    },
-                    {
-                      "format": "plain",
-                      "label": "option2",
-                      "description": "",
-                      "value": "2",
-                      "icon": {
-                        "value": "IconBulb"
-                      },
-                      "iconVisibility": false,
-                      "disable": {
-                        "value": false
-                      },
-                      "visible": {
-                        "value": true
-                      }
-                    },
-                    {
-                      "format": "plain",
-                      "label": "option3",
-                      "description": "",
-                      "value": "3",
-                      "icon": {
-                        "value": "IconTag"
-                      },
-                      "iconVisibility": false,
-                      "disable": {
-                        "value": false
-                      },
-                      "visible": {
-                        "value": true
-                      }
-                    }
-                  ]
-                },
-                "optionsLoadingState": {
-                  "value": "{{false}}"
+                "placeholder": {
+                  "value": "Enter your input"
                 },
                 "visibility": {
                   "value": "{{true}}"
@@ -232,44 +177,56 @@
               },
               "general": {},
               "styles": {
-                "backgroundColor": {
-                  "value": "var(--cc-primary-brand)"
-                },
                 "textColor": {
-                  "value": "#FFFFFF"
+                  "value": "var(--cc-primary-text)"
                 },
                 "borderColor": {
+                  "value": "var(--cc-default-border)"
+                },
+                "accentColor": {
                   "value": "var(--cc-primary-brand)"
                 },
-                "loaderColor": {
+                "errTextColor": {
+                  "value": "var(--cc-error-systemStatus)"
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "backgroundColor": {
                   "value": "var(--cc-surface1-surface)"
                 },
-                "icon": {
-                  "value": "IconMenu2"
-                },
-                "iconVisibility": {
-                  "value": "{{true}}"
-                },
                 "iconColor": {
-                  "value": "#FFFFFF"
+                  "value": "var(--cc-default-icon)"
                 },
                 "direction": {
                   "value": "left"
                 },
-                "borderRadius": {
-                  "value": "6"
+                "width": {
+                  "value": "{{33}}"
+                },
+                "alignment": {
+                  "value": "side"
+                },
+                "color": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "auto": {
+                  "value": "{{true}}"
+                },
+                "padding": {
+                  "value": "default"
                 },
                 "boxShadow": {
                   "value": "0px 0px 0px 0px #00000040"
                 },
-                "optionsTextColor": {
-                  "value": "var(--cc-primary-text)"
+                "icon": {
+                  "value": "IconHome2"
                 },
-                "optionsIconColor": {
-                  "value": "var(--cc-default-icon)"
+                "iconVisibility": {
+                  "value": false
                 },
-                "optionsDescriptionColor": {
-                  "value": "var(--cc-placeholder-text)"
+                "widthType": {
+                  "value": "ofComponent"
                 }
               },
               "generalStyles": {
@@ -285,48 +242,64 @@
                   "value": "{{false}}"
                 }
               },
-              "validation": {},
-              "createdAt": "2025-11-26T11:27:55.671Z",
-              "updatedAt": "2025-11-26T11:27:55.671Z",
+              "validation": {
+                "mandatory": {
+                  "value": "{{false}}"
+                },
+                "regex": {
+                  "value": ""
+                },
+                "minLength": {
+                  "value": ""
+                },
+                "maxLength": {
+                  "value": ""
+                },
+                "customRule": {
+                  "value": ""
+                }
+              },
+              "createdAt": "2025-11-26T11:28:35.515Z",
+              "updatedAt": "2025-11-26T11:28:35.515Z",
               "layouts": [
                 {
-                  "id": "a794ccfa-4c3e-4bc8-adea-e7096c16d2f9",
-                  "type": "mobile",
-                  "top": 290,
-                  "left": 2,
-                  "width": 6,
+                  "id": "edfeab9c-7bec-41c4-b18e-34533b581b60",
+                  "type": "desktop",
+                  "top": 150,
+                  "left": 1,
+                  "width": 10,
                   "height": 40,
-                  "componentId": "67a0e8d1-7eba-445a-9e03-85629de7896f",
+                  "componentId": "98b91f65-bc69-4b20-92f7-0a79e030161a",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-11-26T11:27:55.671Z"
+                  "updatedAt": "2025-11-26T11:28:41.667Z"
                 },
                 {
-                  "id": "70386995-9927-4d77-a85c-151ba0aae7ef",
-                  "type": "desktop",
-                  "top": 290,
+                  "id": "97b7ea09-27b6-4963-94cc-cb1a347f30c9",
+                  "type": "mobile",
+                  "top": 150,
                   "left": 2,
-                  "width": 6,
+                  "width": 10,
                   "height": 40,
-                  "componentId": "67a0e8d1-7eba-445a-9e03-85629de7896f",
+                  "componentId": "98b91f65-bc69-4b20-92f7-0a79e030161a",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-11-26T11:27:55.671Z"
+                  "updatedAt": "2025-11-26T11:28:35.515Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "4cbec3e0-1944-4f52-b9b8-77be88c3fdaa",
+              "id": "77780d05-0e71-470f-9a04-f486e580cc7e",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
               "icon": null,
-              "createdAt": "2025-11-26T11:27:40.032Z",
-              "updatedAt": "2025-11-26T11:27:40.032Z",
+              "createdAt": "2025-11-26T11:28:17.875Z",
+              "updatedAt": "2025-11-26T11:28:17.875Z",
               "autoComputeLayout": true,
-              "appVersionId": "5281bdf2-4078-46a7-b6e8-cfe56e83ed3f",
+              "appVersionId": "97508594-9aaa-4190-bb35-ab5d8d4c4193",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false,
@@ -341,8 +314,8 @@
           "dataSources": [],
           "appVersions": [
             {
-              "id": "5281bdf2-4078-46a7-b6e8-cfe56e83ed3f",
-              "name": "v2",
+              "id": "97508594-9aaa-4190-bb35-ab5d8d4c4193",
+              "name": "v3",
               "definition": null,
               "globalSettings": {
                 "appInMaintenance": false,
@@ -355,12 +328,12 @@
               },
               "pageSettings": null,
               "showViewerNavigation": true,
-              "homePageId": "4cbec3e0-1944-4f52-b9b8-77be88c3fdaa",
+              "homePageId": "77780d05-0e71-470f-9a04-f486e580cc7e",
               "appId": "609ce228-52f9-4237-931a-cba50a4fd7a5",
-              "currentEnvironmentId": "b9c5f14c-0392-4cdd-8906-a7644d32c4e8",
+              "currentEnvironmentId": "5073b250-b0dd-4684-9e35-18bd42e097ae",
               "promotedFrom": null,
-              "createdAt": "2025-11-26T11:27:40.047Z",
-              "updatedAt": "2025-11-26T11:28:09.278Z"
+              "createdAt": "2025-11-26T11:28:17.883Z",
+              "updatedAt": "2025-11-26T11:28:48.753Z"
             }
           ],
           "appEnvironments": [
