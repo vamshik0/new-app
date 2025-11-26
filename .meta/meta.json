@@ -65,9 +65,9 @@
   },
   "609ce228-52f9-4237-931a-cba50a4fd7a5": {
     "gitAppName": "trial-git-app",
-    "lastCommitMessage": "App trial-git-app created",
+    "lastCommitMessage": " v1 Version of app trial-git-app promoted from development to staging",
     "gitVersionId": "c3791ae5-0514-4f93-8130-7781c6bb5ee1",
-    "lastpushDate": "2025-11-26T11:22:53.465Z",
+    "lastpushDate": "2025-11-26T11:23:19.495Z",
     "gitVersionName": "v1",
     "lastCommitUser": "dev "
   }
