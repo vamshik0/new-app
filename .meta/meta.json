@@ -73,10 +73,10 @@
   },
   "885ea1bf-a186-4483-bd13-4948e8bf7af3": {
     "gitAppName": "new-git",
-    "lastCommitMessage": "Version v1 Created of app new-git",
-    "gitVersionId": "fc2f307e-19d6-4b4b-8d60-04a8292e6a87",
-    "lastpushDate": "2025-11-26T12:47:11.699Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "only table",
+    "gitVersionId": "a39223e4-78b7-4a3a-a75a-e15288c74f20",
+    "lastpushDate": "2025-11-26T12:55:51.053Z",
+    "gitVersionName": "v1_1",
     "lastCommitUser": "dev "
   }
 }
