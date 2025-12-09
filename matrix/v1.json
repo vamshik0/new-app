@@ -43,14 +43,155 @@
             "currentEnvironmentId": "dc240d11-c8ca-44c5-a07c-0dbcc1bd0e9e",
             "promotedFrom": null,
             "parentVersionId": null,
-            "status": "DRAFT",
-            "description": null,
+            "status": "PUBLISHED",
+            "description": "first-version",
             "publishedAt": null,
             "releasedAt": null,
             "createdAt": "2025-12-09T09:03:40.394Z",
-            "updatedAt": "2025-12-09T09:03:40.287Z"
+            "updatedAt": "2025-12-09T09:08:44.476Z"
           },
-          "components": [],
+          "components": [
+            {
+              "id": "e65c711d-b862-468c-8daa-abcb7b6d05e4",
+              "name": "textinput1",
+              "type": "TextInput",
+              "pageId": "32ae9179-6e0a-4ff4-8ee9-1dd318a73aba",
+              "parent": null,
+              "properties": {
+                "value": {
+                  "value": "{{globals.environment.name}} - {{globals.appVersion.name}}"
+                },
+                "label": {
+                  "value": "Label"
+                },
+                "placeholder": {
+                  "value": "Enter your input"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "tooltip": {
+                  "value": ""
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "borderColor": {
+                  "value": "var(--cc-default-border)"
+                },
+                "accentColor": {
+                  "value": "var(--cc-primary-brand)"
+                },
+                "errTextColor": {
+                  "value": "var(--cc-error-systemStatus)"
+                },
+                "borderRadius": {
+                  "value": "{{6}}"
+                },
+                "backgroundColor": {
+                  "value": "var(--cc-surface1-surface)"
+                },
+                "iconColor": {
+                  "value": "var(--cc-default-icon)"
+                },
+                "direction": {
+                  "value": "left"
+                },
+                "width": {
+                  "value": "{{33}}"
+                },
+                "alignment": {
+                  "value": "side"
+                },
+                "color": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "auto": {
+                  "value": "{{true}}"
+                },
+                "padding": {
+                  "value": "default"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "icon": {
+                  "value": "IconHome2"
+                },
+                "iconVisibility": {
+                  "value": false
+                },
+                "widthType": {
+                  "value": "ofComponent"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {
+                "mandatory": {
+                  "value": "{{false}}"
+                },
+                "regex": {
+                  "value": ""
+                },
+                "minLength": {
+                  "value": ""
+                },
+                "maxLength": {
+                  "value": ""
+                },
+                "customRule": {
+                  "value": ""
+                }
+              },
+              "createdAt": "2025-12-09T09:08:22.851Z",
+              "updatedAt": "2025-12-09T09:08:36.360Z",
+              "layouts": [
+                {
+                  "id": "25e1a0f9-804a-470c-ab1d-eda16a4d837e",
+                  "type": "mobile",
+                  "top": 310,
+                  "left": 2,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "e65c711d-b862-468c-8daa-abcb7b6d05e4",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-12-09T09:08:22.851Z"
+                },
+                {
+                  "id": "f0a01395-74c6-4f4e-8917-6033164c329f",
+                  "type": "desktop",
+                  "top": 310,
+                  "left": 2,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "e65c711d-b862-468c-8daa-abcb7b6d05e4",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-12-09T09:08:22.851Z"
+                }
+              ]
+            }
+          ],
           "pages": [
             {
               "id": "32ae9179-6e0a-4ff4-8ee9-1dd318a73aba",
@@ -97,12 +238,12 @@
               "currentEnvironmentId": "dc240d11-c8ca-44c5-a07c-0dbcc1bd0e9e",
               "promotedFrom": null,
               "parentVersionId": null,
-              "status": "DRAFT",
-              "description": null,
+              "status": "PUBLISHED",
+              "description": "first-version",
               "publishedAt": null,
               "releasedAt": null,
               "createdAt": "2025-12-09T09:03:40.394Z",
-              "updatedAt": "2025-12-09T09:03:40.287Z"
+              "updatedAt": "2025-12-09T09:08:44.476Z"
             }
           ],
           "appEnvironments": [
