@@ -43,12 +43,12 @@
             "currentEnvironmentId": "dc240d11-c8ca-44c5-a07c-0dbcc1bd0e9e",
             "promotedFrom": null,
             "parentVersionId": null,
-            "status": "DRAFT",
-            "description": null,
+            "status": "PUBLISHED",
+            "description": "first-version",
             "publishedAt": null,
             "releasedAt": null,
             "createdAt": "2025-12-09T10:01:09.178Z",
-            "updatedAt": "2025-12-09T10:01:09.039Z"
+            "updatedAt": "2025-12-09T10:01:30.105Z"
           },
           "components": [],
           "pages": [
@@ -97,12 +97,12 @@
               "currentEnvironmentId": "dc240d11-c8ca-44c5-a07c-0dbcc1bd0e9e",
               "promotedFrom": null,
               "parentVersionId": null,
-              "status": "DRAFT",
-              "description": null,
+              "status": "PUBLISHED",
+              "description": "first-version",
               "publishedAt": null,
               "releasedAt": null,
               "createdAt": "2025-12-09T10:01:09.178Z",
-              "updatedAt": "2025-12-09T10:01:09.039Z"
+              "updatedAt": "2025-12-09T10:01:30.105Z"
             }
           ],
           "appEnvironments": [
