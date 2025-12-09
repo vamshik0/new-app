@@ -24,8 +24,8 @@
           "updatedAt": "2025-12-09T09:34:41.676Z",
           "__loaded": true,
           "editingVersion": {
-            "id": "98a6b807-ef93-4b15-ba5b-27f60c32df44",
-            "name": "v2",
+            "id": "fd397257-09ff-4e7f-ab38-edc9e01f28aa",
+            "name": "v3",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -45,17 +45,17 @@
               }
             },
             "showViewerNavigation": true,
-            "homePageId": "8cf353b2-5f13-494c-bad0-61474be171e5",
+            "homePageId": "311e370b-d049-4f2f-8c45-2a5ee7660213",
             "appId": "e273ae99-6e84-44c3-b2e1-422021c8c2e2",
             "currentEnvironmentId": "dc240d11-c8ca-44c5-a07c-0dbcc1bd0e9e",
             "promotedFrom": null,
             "parentVersionId": "d42ceaff-36ce-4713-9640-bcaaf2933101",
-            "status": "PUBLISHED",
+            "status": "DRAFT",
             "description": "",
             "publishedAt": null,
             "releasedAt": null,
-            "createdAt": "2025-12-09T09:36:12.174Z",
-            "updatedAt": "2025-12-09T09:36:36.811Z"
+            "createdAt": "2025-12-09T09:35:53.946Z",
+            "updatedAt": "2025-12-09T09:37:41.897Z"
           },
           "components": [
             {
