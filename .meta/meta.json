@@ -17,11 +17,11 @@
   },
   "85552061-c4da-415b-831d-79eabe38a761": {
     "gitAppName": "raging-bull",
-    "lastCommitMessage": "only form",
-    "gitVersionId": "60d2e443-eb77-4474-b0fd-d6f1924660ac",
-    "lastpushDate": "2025-12-09T07:00:29.510Z",
-    "gitVersionName": "v1_1",
-    "lastCommitUser": "lts-dev "
+    "lastCommitMessage": "Version v1_1 is renamed to v1",
+    "gitVersionId": "d42ceaff-36ce-4713-9640-bcaaf2933101",
+    "lastpushDate": "2025-12-09T09:35:27.810Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "dev "
   },
   "6476bef6-7a4e-46e5-af17-c3f2cd91a2eb": {
     "gitAppName": "good-fellas",
