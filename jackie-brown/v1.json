@@ -77,8 +77,8 @@
           "updatedAt": "2025-12-10T14:02:52.321Z",
           "__loaded": true,
           "editingVersion": {
-            "id": "153c75fb-aae1-43fc-9645-b17fae5a3ec1",
-            "name": "v6",
+            "id": "92bcd040-827e-42ef-ac46-073925c42cb3",
+            "name": "v7",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -89,26 +89,19 @@
               "backgroundFxQuery": "",
               "appMode": "light"
             },
-            "pageSettings": {
-              "properties": {
-                "disableMenu": {
-                  "value": "{{false}}",
-                  "fxActive": false
-                }
-              }
-            },
+            "pageSettings": null,
             "showViewerNavigation": true,
-            "homePageId": "f9576272-cc50-413c-975f-6f107e409013",
+            "homePageId": "662c65db-a03d-452c-a2c7-bf114ba9541b",
             "appId": "11398585-e3c9-4be9-8c5e-67c1a17d37e5",
             "currentEnvironmentId": "fad892b0-1a3c-4c82-8866-5368dc2c060d",
             "promotedFrom": null,
-            "parentVersionId": "a2878e77-7047-4cb6-9900-8f3c8d1a4d99",
+            "parentVersionId": "cd4bc7dd-2dad-4359-950f-ff3e268e72db",
             "status": "PUBLISHED",
             "description": "",
             "publishedAt": null,
             "releasedAt": null,
-            "createdAt": "2025-12-10T13:53:45.707Z",
-            "updatedAt": "2025-12-10T14:06:05.792Z"
+            "createdAt": "2025-12-10T13:26:37.865Z",
+            "updatedAt": "2025-12-10T14:06:13.104Z"
           },
           "components": [
             {
