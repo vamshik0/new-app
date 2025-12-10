@@ -1,4 +1,57 @@
 {
+  "tooljet_database": [
+    {
+      "id": "f8869547-27a7-4ca3-b69f-d4396b66e755",
+      "table_name": "Students",
+      "schema": {
+        "columns": [
+          {
+            "column_name": "id",
+            "data_type": "integer",
+            "column_default": "nextval(\"workspace_15d78efb-dd08-40eb-8cde-f2474cac8563\".\"f8869547-27a7-4ca3-b69f-d4396b66e755_id_seq\"",
+            "character_maximum_length": null,
+            "numeric_precision": 32,
+            "constraints_type": {
+              "is_not_null": true,
+              "is_primary_key": true,
+              "is_unique": false
+            },
+            "keytype": "PRIMARY KEY",
+            "configurations": {}
+          },
+          {
+            "column_name": "name",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          },
+          {
+            "column_name": "standard",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": "",
+            "configurations": {}
+          }
+        ],
+        "foreign_keys": []
+      }
+    }
+  ],
   "app": [
     {
       "definition": {
@@ -52,10 +105,10 @@
           },
           "components": [
             {
-              "id": "1d0cf9d9-3cf6-4c5f-80c3-4cb818e8e23d",
+              "id": "e44ca26d-d6bd-4d4b-ace5-b4f7abaf595c",
               "name": "table1",
               "type": "Table",
-              "pageId": "662c65db-a03d-452c-a2c7-bf114ba9541b",
+              "pageId": "17ddcbaa-cc26-4ab3-a205-69d484485494",
               "parent": null,
               "properties": {
                 "title": {
@@ -71,7 +124,7 @@
                   "value": "rawJson"
                 },
                 "data": {
-                  "value": "{{ [ \n\t\t{ id: 1, name: 'Olivia Nguyen', email: 'olivia.nguyen@example.com', date: '15/05/2022', phone: 9876543210, interest: ['Reading', 'Traveling','Photography'], photo: 'https://reqres.in/img/faces/7-image.jpg' }, \n\t\t{ id: 2, name: 'Liam Patel', email: 'liam.patel@example.com', date: '20/09/2021', phone: 8765432109, interest: ['Cooking','Gardening','Hiking'], photo: 'https://reqres.in/img/faces/5-image.jpg' }, \n\t\t{ id: 3, name: 'Sophia Reyes', email: 'sophia.reyes@example.com', date: '01/01/2023', phone: 7654321098, interest: ['Music','Dancing','Crafting'], photo: 'https://reqres.in/img/faces/3-image.jpg' }, \n\t\t{ id: 4, name: 'Jacob Hernandez', email: 'jacob.hernandez@example.com', date: '10/11/2022', phone: 6543210987, interest: ['Reading', 'Traveling', 'Volunteering'], photo: 'https://reqres.in/img/faces/1-image.jpg' }, \n\t\t{ id: 5, name: 'William Sanchez', email: 'william.sanchez@example.com', date: '07/01/2021', phone: 4321098765, interest: ['Music', 'Dancing', 'Hiking'], photo: 'https://reqres.in/img/faces/4-image.jpg' }, \n\t\t{ id: 6, name: 'Ethan Morales', email: 'ethan.morales@example.com', date: '05/11/2021', phone: 2109876543, interest: ['Cooking', 'Traveling', 'Photography'], photo: 'https://reqres.in/img/faces/6-image.jpg' }, \n\t\t{ id: 7, name: 'Mia Tiana', email: 'mia.tiana@example.com', date: '21/11/2022', phone: 1098705217, interest: ['Music', 'Gardening', 'Hiking'], photo: 'https://reqres.in/img/faces/2-image.jpg' }, \n\t\t{ id: 8, name: 'Lucas Ramirez', email: 'lucas.ramirez@example.com', date: '31/03/2023', phone: 9876543210, interest: ['Reading', 'Dancing', 'Crafting'], photo: 'https://reqres.in/img/faces/9-image.jpg' }, \n\t\t{ id: 9, name: 'Alexander Vela', email: 'alexander.vela@example.com', date: '07/09/2022', phone: 7654321098, interest: ['Music','Gardening','Photography'], photo: 'https://reqres.in/img/faces/8-image.jpg' }, \n\t\t{ id: 10, name: 'Michael Reyes', email: 'michael.reyes@example.com', date: '25/12/2021', phone: 5432109876, interest: ['Cooking','Crafting','Volunteering'], photo: 'https://reqres.in/img/faces/10-image.jpg' } \n] }}"
+                  "value": "{{queries.37e4c2af-eb6a-4ea7-bb16-23a3fbd86d8a.data}}"
                 },
                 "useDynamicColumn": {
                   "value": "{{false}}"
@@ -131,17 +184,6 @@
                       "columnType": "string"
                     },
                     {
-                      "name": "photo",
-                      "key": "photo",
-                      "id": "f23b7d134b2e490ea41e3bb8eeb8c8e37472af243bf6b70d5af294482097e3a2",
-                      "autogenerated": true,
-                      "fxActiveFields": [],
-                      "columnType": "image",
-                      "objectFit": "contain",
-                      "borderRadius": "100",
-                      "columnSize": 70
-                    },
-                    {
                       "name": "name",
                       "key": "name",
                       "id": "5d2a3744a006388aadd012fcc15cc0dbcb5f9130e0fbb64c558561c97118754a",
@@ -151,83 +193,10 @@
                       "columnType": "string"
                     },
                     {
-                      "name": "email",
-                      "key": "email",
-                      "id": "afc9a5091750a1bd4760e38760de3b4be11a43452ae8ae07ce2eebc569fe9a7f",
-                      "autogenerated": true,
-                      "fxActiveFields": [],
-                      "columnSize": 230,
-                      "columnType": "string"
-                    },
-                    {
-                      "name": "date",
-                      "key": "date",
-                      "id": "27b75c8af9d34d1eaa1f9bb7f8f9f7b0abf1823e799748c8bb57e74f53b2c1dc",
-                      "autogenerated": true,
-                      "fxActiveFields": [],
-                      "columnType": "datepicker",
-                      "isTimeChecked": false,
-                      "dateFormat": "DD/MM/YYYY",
-                      "parseDateFormat": "DD/MM/YYYY",
-                      "isDateSelectionEnabled": true,
-                      "columnSize": 130
-                    },
-                    {
-                      "name": "interest",
-                      "key": "interest",
-                      "id": "f23b7d134b2e490ea41e3bb8eeb8c8e37472af243bf6b70d5af294482097e3a1",
-                      "autogenerated": true,
-                      "fxActiveFields": [],
-                      "columnType": "newMultiSelect",
-                      "columnSize": 300,
-                      "options": [
-                        {
-                          "label": "Reading",
-                          "value": "Reading"
-                        },
-                        {
-                          "label": "Traveling",
-                          "value": "Traveling"
-                        },
-                        {
-                          "label": "Photography",
-                          "value": "Photography"
-                        },
-                        {
-                          "label": "Music",
-                          "value": "Music"
-                        },
-                        {
-                          "label": "Cooking",
-                          "value": "Cooking"
-                        },
-                        {
-                          "label": "Crafting",
-                          "value": "Crafting"
-                        },
-                        {
-                          "label": "Volunteering",
-                          "value": "Volunteering"
-                        },
-                        {
-                          "label": "Gardening",
-                          "value": "Gardening"
-                        },
-                        {
-                          "label": "Dancing",
-                          "value": "Dancing"
-                        },
-                        {
-                          "label": "Hiking",
-                          "value": "Hiking"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "f4856b5c-6d84-45d1-b6c7-46b830854e65",
-                      "name": "phone",
-                      "key": "phone",
-                      "columnType": "number",
+                      "id": "dd50fc05-df4f-4b68-b91a-7894886b218f",
+                      "name": "standard",
+                      "key": "standard",
+                      "columnType": "string",
                       "autogenerated": true
                     }
                   ]
@@ -340,47 +309,47 @@
                 }
               },
               "validation": {},
-              "createdAt": "2025-12-10T13:26:37.852Z",
-              "updatedAt": "2025-12-10T13:26:39.545Z",
+              "createdAt": "2025-12-10T13:26:27.125Z",
+              "updatedAt": "2025-12-10T13:27:26.259Z",
               "layouts": [
                 {
-                  "id": "e9fa0a2c-4386-4108-81fe-1b2d3bedee62",
+                  "id": "5064ef51-b005-463e-8b86-7e74d1561abc",
                   "type": "mobile",
                   "top": 220,
                   "left": 4,
                   "width": 25,
                   "height": 460,
-                  "componentId": "1d0cf9d9-3cf6-4c5f-80c3-4cb818e8e23d",
+                  "componentId": "e44ca26d-d6bd-4d4b-ace5-b4f7abaf595c",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-12-10T13:26:37.852Z"
+                  "updatedAt": "2025-12-10T13:26:27.125Z"
                 },
                 {
-                  "id": "d759018f-317f-4f8e-b5f9-9b4f29193416",
+                  "id": "02e7c14b-286f-4cc8-baab-697b37be69de",
                   "type": "desktop",
                   "top": 160,
                   "left": 1,
-                  "width": 25,
-                  "height": 460,
-                  "componentId": "1d0cf9d9-3cf6-4c5f-80c3-4cb818e8e23d",
+                  "width": 16,
+                  "height": 410,
+                  "componentId": "e44ca26d-d6bd-4d4b-ace5-b4f7abaf595c",
                   "dimensionUnit": "count",
-                  "updatedAt": "2025-12-10T13:26:37.852Z"
+                  "updatedAt": "2025-12-10T13:27:28.744Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "662c65db-a03d-452c-a2c7-bf114ba9541b",
+              "id": "17ddcbaa-cc26-4ab3-a205-69d484485494",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
               "icon": null,
-              "createdAt": "2025-12-10T13:26:37.852Z",
-              "updatedAt": "2025-12-10T13:26:37.852Z",
+              "createdAt": "2025-12-10T13:26:27.125Z",
+              "updatedAt": "2025-12-10T13:26:27.125Z",
               "autoComputeLayout": true,
-              "appVersionId": "92bcd040-827e-42ef-ac46-073925c42cb3",
+              "appVersionId": "5d029585-107a-4e45-8334-59157b206d96",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false,
@@ -391,12 +360,79 @@
             }
           ],
           "events": [],
-          "dataQueries": [],
-          "dataSources": [],
+          "dataQueries": [
+            {
+              "id": "37e4c2af-eb6a-4ea7-bb16-23a3fbd86d8a",
+              "name": "getStudents",
+              "options": {
+                "operation": "list_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "table_id": "f8869547-27a7-4ca3-b69f-d4396b66e755",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1765373234205,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "f8869547-27a7-4ca3-b69f-d4396b66e755"
+                            }
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "f8869547-27a7-4ca3-b69f-d4396b66e755",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "id",
+                      "table": "f8869547-27a7-4ca3-b69f-d4396b66e755"
+                    },
+                    {
+                      "name": "name",
+                      "table": "f8869547-27a7-4ca3-b69f-d4396b66e755"
+                    },
+                    {
+                      "name": "standard",
+                      "table": "f8869547-27a7-4ca3-b69f-d4396b66e755"
+                    }
+                  ]
+                },
+                "list_rows": {},
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "d0611cd7-1cec-4497-a665-9ab59d598d8d",
+              "appVersionId": "5d029585-107a-4e45-8334-59157b206d96",
+              "createdAt": "2025-12-10T13:27:09.912Z",
+              "updatedAt": "2025-12-10T13:27:30.550Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "d0611cd7-1cec-4497-a665-9ab59d598d8d",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "15d78efb-dd08-40eb-8cde-f2474cac8563",
+              "scope": "global",
+              "createdAt": "2025-12-09T06:18:44.654Z",
+              "updatedAt": "2025-12-09T06:18:44.654Z"
+            }
+          ],
           "appVersions": [
             {
-              "id": "92bcd040-827e-42ef-ac46-073925c42cb3",
-              "name": "v2_2",
+              "id": "5d029585-107a-4e45-8334-59157b206d96",
+              "name": "v2_1",
               "definition": null,
               "globalSettings": {
                 "appInMaintenance": false,
@@ -409,7 +445,7 @@
               },
               "pageSettings": null,
               "showViewerNavigation": true,
-              "homePageId": "662c65db-a03d-452c-a2c7-bf114ba9541b",
+              "homePageId": "17ddcbaa-cc26-4ab3-a205-69d484485494",
               "appId": "11398585-e3c9-4be9-8c5e-67c1a17d37e5",
               "currentEnvironmentId": "fad892b0-1a3c-4c82-8866-5368dc2c060d",
               "promotedFrom": null,
@@ -418,8 +454,8 @@
               "description": null,
               "publishedAt": null,
               "releasedAt": null,
-              "createdAt": "2025-12-10T13:26:37.865Z",
-              "updatedAt": "2025-12-10T13:26:37.852Z"
+              "createdAt": "2025-12-10T13:26:27.133Z",
+              "updatedAt": "2025-12-10T13:26:27.125Z"
             }
           ],
           "appEnvironments": [
@@ -454,7 +490,32 @@
               "updatedAt": "2025-12-09T06:18:44.469Z"
             }
           ],
-          "dataSourceOptions": [],
+          "dataSourceOptions": [
+            {
+              "id": "d8827191-4f51-41a2-967b-932e65f74a0d",
+              "dataSourceId": "d0611cd7-1cec-4497-a665-9ab59d598d8d",
+              "environmentId": "fad892b0-1a3c-4c82-8866-5368dc2c060d",
+              "options": null,
+              "createdAt": "2025-12-09T06:18:44.660Z",
+              "updatedAt": "2025-12-09T06:18:44.660Z"
+            },
+            {
+              "id": "b9da4736-4985-4d97-bac3-4a5e67b08fbe",
+              "dataSourceId": "d0611cd7-1cec-4497-a665-9ab59d598d8d",
+              "environmentId": "654df835-dfcf-45bb-ad60-0469a851fd28",
+              "options": null,
+              "createdAt": "2025-12-09T06:18:44.660Z",
+              "updatedAt": "2025-12-09T06:18:44.660Z"
+            },
+            {
+              "id": "ce976092-73ff-41ee-8b25-9819f951b04c",
+              "dataSourceId": "d0611cd7-1cec-4497-a665-9ab59d598d8d",
+              "environmentId": "62052521-a9c2-4c91-9639-90f0c97c3079",
+              "options": null,
+              "createdAt": "2025-12-09T06:18:44.660Z",
+              "updatedAt": "2025-12-09T06:18:44.660Z"
+            }
+          ],
           "schemaDetails": {
             "multiPages": true,
             "multiEnv": true,
