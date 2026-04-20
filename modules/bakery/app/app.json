@@ -1,0 +1,13 @@
+{
+  "id": "ef2fc597-836d-4108-8768-d0b373ce8e31",
+  "name": "bakery",
+  "type": "module",
+  "slug": "d903e29e-df28-4f77-b9ce-fa46cb3073ac",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.21-beta-ee"
+}

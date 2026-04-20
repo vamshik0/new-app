@@ -1,0 +1,164 @@
+{
+  "id": "f6dec0b5-72d4-49ae-95df-726bfb43c0e8",
+  "name": "radiobutton1",
+  "type": "RadioButtonV2",
+  "pageId": "238131a4-8697-42b3-b7b1-ac9e6f56b41f",
+  "parent": "d89b60cb-b132-4925-9703-65853632c852",
+  "properties": {
+    "label": {
+      "value": "Select"
+    },
+    "value": {
+      "value": "{{\"2\"}}"
+    },
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "options": {
+      "value": [
+        {
+          "label": "option1",
+          "value": "1",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        },
+        {
+          "label": "option2",
+          "value": "2",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{true}}"
+          }
+        },
+        {
+          "label": "option3",
+          "value": "3",
+          "disable": {
+            "value": "{{false}}"
+          },
+          "visible": {
+            "value": "{{true}}"
+          },
+          "default": {
+            "value": "{{false}}"
+          }
+        }
+      ]
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "layout": {
+      "value": "row"
+    },
+    "optionsLoadingState": {
+      "value": "{{false}}"
+    },
+    "optionVisibility": {
+      "value": "{{[true, true, true]}}"
+    },
+    "optionDisable": {
+      "value": "{{[false, false, false]}}"
+    },
+    "schema": {
+      "value": "{{[\t{label: 'option1',value: '1',disable: false,visible: true,default: true},{label: 'option2',value: '2',disable: false,visible: true},{label: 'option3',value: '3',disable: false,visible: true}\t]}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "labelColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "alignment": {
+      "value": "side"
+    },
+    "auto": {
+      "value": "{{true}}"
+    },
+    "labelWidth": {
+      "value": "33"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "switchOffBackgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "switchOnBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "handleColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "optionsTextColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "widthType": {
+      "value": "ofComponent"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{false}}"
+    }
+  },
+  "layouts": [
+    {
+      "id": "afe38d8c-8a5e-477c-9e3f-3a643fe1033a",
+      "type": "desktop",
+      "top": 430,
+      "left": 4,
+      "width": 22,
+      "height": 43,
+      "componentId": "f6dec0b5-72d4-49ae-95df-726bfb43c0e8",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "cf14aecf-5f86-4756-84e7-b6d343e0a0ed",
+      "type": "mobile",
+      "top": 430,
+      "left": 4,
+      "width": 22,
+      "height": 43,
+      "componentId": "f6dec0b5-72d4-49ae-95df-726bfb43c0e8",
+      "dimensionUnit": "count"
+    }
+  ]
+}
