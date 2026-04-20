@@ -1,0 +1,13 @@
+{
+  "id": "5989d92a-d0e2-48af-97d6-6a6c51061737",
+  "name": "Snowflake_update",
+  "type": "front-end",
+  "slug": "f54a5e4e-ab0e-43ce-91a1-62721de00d68",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.21-beta-ee"
+}
