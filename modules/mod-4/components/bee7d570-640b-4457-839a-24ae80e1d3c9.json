@@ -1,0 +1,288 @@
+{
+  "id": "bee7d570-640b-4457-839a-24ae80e1d3c9",
+  "name": "treeselect1",
+  "type": "TreeSelect",
+  "pageId": "2eee7550-a951-4e66-b432-3129d37abc4e",
+  "parent": "d211f9ed-8448-410c-b1eb-6b3260049c1d",
+  "properties": {
+    "label": {
+      "value": "Countries"
+    },
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "data": {
+      "value": "{{[{\"label\":\"Asia\",\"value\":\"asia\",\"children\":[{\"label\":\"China\",\"value\":\"china\",\"children\":[{\"label\":\"Beijing\",\"value\":\"beijing\"},{\"label\":\"Shanghai\",\"value\":\"shanghai\"}]},{\"label\":\"Japan\",\"value\":\"japan\"},{\"label\":\"India\",\"value\":\"india\",\"children\":[{\"label\":\"Delhi\",\"value\":\"delhi\"},{\"label\":\"Mumbai\",\"value\":\"mumbai\"},{\"label\":\"Bengaluru\",\"value\":\"bengaluru\"}]}]},{\"label\":\"Europe\",\"value\":\"europe\",\"children\":[{\"label\":\"France\",\"value\":\"france\"},{\"label\":\"Spain\",\"value\":\"spain\"},{\"label\":\"England\",\"value\":\"england\"}]},{\"label\":\"Africa\",\"value\":\"africa\"}]}}"
+    },
+    "allowIndependentSelection": {
+      "value": "{{false}}"
+    },
+    "checkedData": {
+      "value": "{{[\"asia\"]}}"
+    },
+    "expandedData": {
+      "value": "{{[\"asia\"]}}"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "options": {
+      "value": [
+        {
+          "label": "Asia",
+          "value": "asia",
+          "visible": {
+            "value": true
+          },
+          "disable": {
+            "value": false
+          },
+          "expanded": {
+            "value": true
+          },
+          "selected": {
+            "value": true
+          },
+          "children": [
+            {
+              "label": "China",
+              "value": "china",
+              "visible": {
+                "value": true
+              },
+              "disable": {
+                "value": false
+              },
+              "children": [
+                {
+                  "label": "Beijing",
+                  "value": "beijing",
+                  "visible": {
+                    "value": true
+                  },
+                  "disable": {
+                    "value": false
+                  }
+                },
+                {
+                  "label": "Shanghai",
+                  "value": "shanghai",
+                  "visible": {
+                    "value": true
+                  },
+                  "disable": {
+                    "value": false
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Japan",
+              "value": "japan",
+              "visible": {
+                "value": true
+              },
+              "disable": {
+                "value": false
+              }
+            },
+            {
+              "label": "India",
+              "value": "india",
+              "visible": {
+                "value": true
+              },
+              "disable": {
+                "value": false
+              },
+              "children": [
+                {
+                  "label": "Delhi",
+                  "value": "delhi",
+                  "visible": {
+                    "value": true
+                  },
+                  "disable": {
+                    "value": false
+                  }
+                },
+                {
+                  "label": "Mumbai",
+                  "value": "mumbai",
+                  "visible": {
+                    "value": true
+                  },
+                  "disable": {
+                    "value": false
+                  }
+                },
+                {
+                  "label": "Bengaluru",
+                  "value": "bengaluru",
+                  "visible": {
+                    "value": true
+                  },
+                  "disable": {
+                    "value": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Europe",
+          "value": "europe",
+          "visible": {
+            "value": true
+          },
+          "disable": {
+            "value": false
+          },
+          "children": [
+            {
+              "label": "France",
+              "value": "france",
+              "visible": {
+                "value": true
+              },
+              "disable": {
+                "value": false
+              }
+            },
+            {
+              "label": "Spain",
+              "value": "spain",
+              "visible": {
+                "value": true
+              },
+              "disable": {
+                "value": false
+              }
+            },
+            {
+              "label": "England",
+              "value": "england",
+              "visible": {
+                "value": true
+              },
+              "disable": {
+                "value": false
+              }
+            }
+          ]
+        },
+        {
+          "label": "Africa",
+          "value": "africa",
+          "visible": {
+            "value": true
+          },
+          "disable": {
+            "value": false
+          }
+        }
+      ]
+    }
+  },
+  "general": {},
+  "styles": {
+    "labelColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "labelStyle": {
+      "value": "new"
+    },
+    "alignment": {
+      "value": "side"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "autoLabelWidth": {
+      "value": "{{true}}"
+    },
+    "labelWidth": {
+      "value": "33"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "uncheckedBackground": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "checkboxColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "checkmarkColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": "{{false}}"
+    },
+    "minSelection": {
+      "value": "{{0}}"
+    },
+    "maxSelection": {
+      "value": "{{0}}"
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "16f51320-57de-4c51-beed-58508492e539",
+      "type": "desktop",
+      "top": 50,
+      "left": 2,
+      "width": 23,
+      "height": 200,
+      "componentId": "bee7d570-640b-4457-839a-24ae80e1d3c9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0e1c84a5-4752-4b6f-b668-f1defa94e817",
+      "type": "mobile",
+      "top": 40,
+      "left": 2,
+      "width": 23,
+      "height": 200,
+      "componentId": "bee7d570-640b-4457-839a-24ae80e1d3c9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

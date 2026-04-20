@@ -1,0 +1,100 @@
+{
+  "id": "f46ad4ca-e5ba-4e41-a6ec-f67ca12c7ddd",
+  "name": "isActive",
+  "type": "Checkbox",
+  "pageId": "d109a116-1551-4eba-baf2-13fbdcda1876",
+  "parent": "2b72fc42-6482-43dd-a220-494e2e869f6d",
+  "properties": {
+    "label": {
+      "value": "Is Active"
+    },
+    "defaultValue": {
+      "value": "{{true}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    },
+    "checkboxColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "uncheckedColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "handleColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "alignment": {
+      "value": "top"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "padding": {
+      "value": "default"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "mandatory": {
+      "value": false
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "b268f661-d81a-4954-b094-b8dbf67ce72b",
+      "type": "desktop",
+      "top": 200,
+      "left": 3,
+      "width": 37,
+      "height": 30,
+      "componentId": "f46ad4ca-e5ba-4e41-a6ec-f67ca12c7ddd",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "f39b463f-3ea8-45a0-94da-da146a221668",
+      "type": "mobile",
+      "top": 200,
+      "left": 3,
+      "width": 37,
+      "height": 30,
+      "componentId": "f46ad4ca-e5ba-4e41-a6ec-f67ca12c7ddd",
+      "dimensionUnit": "count"
+    }
+  ]
+}
