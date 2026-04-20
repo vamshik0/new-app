@@ -1,0 +1,13 @@
+{
+  "id": "3285d64b-f155-4614-b364-761ce129ed8b",
+  "name": "mod-2",
+  "type": "module",
+  "slug": "9bc14217-2882-46eb-913c-ce8e1cb73c60",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.21-beta-ee"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "69ec56be-c7c0-4889-aa92-192a35894330",
+  "name": "Redis-cache",
+  "type": "front-end",
+  "slug": "df2be4ac-053f-48e3-90e0-783781bc3a37",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "share",
+  "tooljetVersion": "3.21.21-beta-ee"
+}
