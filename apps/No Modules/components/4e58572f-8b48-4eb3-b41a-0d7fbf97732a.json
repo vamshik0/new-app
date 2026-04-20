@@ -1,0 +1,96 @@
+{
+  "id": "4e58572f-8b48-4eb3-b41a-0d7fbf97732a",
+  "name": "text2",
+  "type": "Text",
+  "pageId": "2d6fe23f-34a3-4e32-baf1-355204598be0",
+  "parent": "df236fda-a57e-4c9f-a0f8-8a5f103c7ccd",
+  "properties": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "{{cardData.description}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "textSize": {
+      "value": 14
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "{{cardData.description}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "textSize": {
+      "value": 14
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "7827ed64-6539-4dba-8720-94d95600ba20",
+      "type": "desktop",
+      "top": 50,
+      "left": 4,
+      "width": 13.953488372093023,
+      "height": 30,
+      "componentId": "4e58572f-8b48-4eb3-b41a-0d7fbf97732a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "147ec21d-ad3b-480d-adad-6d1e4b04d129",
+      "type": "mobile",
+      "top": 50,
+      "left": 4,
+      "width": 13.953488372093023,
+      "height": 30,
+      "componentId": "4e58572f-8b48-4eb3-b41a-0d7fbf97732a",
+      "dimensionUnit": "count"
+    }
+  ]
+}
