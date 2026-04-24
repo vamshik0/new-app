@@ -2,12 +2,12 @@
   "id": "6889f3ff-dd26-4850-9f54-ad4cef7441ca",
   "name": "mod-3",
   "type": "module",
-  "slug": "189fa44f-0b73-4925-bebe-c741192af1c7",
-  "isPublic": null,
+  "slug": "788ef3ba-3bf0-4414-9ce4-04ad71ba5f47",
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "floppydisk",
-  "tooljetVersion": "3.21.21-beta-ee"
+  "tooljetVersion": "3.21.23-beta-ee"
 }
