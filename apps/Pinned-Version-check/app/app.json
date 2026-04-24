@@ -1,0 +1,13 @@
+{
+  "id": "b3dddbb6-7d7e-456f-b08f-a18472651b75",
+  "name": "Pinned-Version-check",
+  "type": "front-end",
+  "slug": "212d6829-6e8f-421e-bda9-7c47ad05606e",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "share",
+  "tooljetVersion": "3.21.23-beta-ee"
+}
