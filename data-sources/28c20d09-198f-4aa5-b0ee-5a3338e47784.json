@@ -1,0 +1,11 @@
+{
+  "id": "28c20d09-198f-4aa5-b0ee-5a3338e47784",
+  "name": "firestore",
+  "kind": "firestore",
+  "type": "default",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  }
+}

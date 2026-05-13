@@ -1,0 +1,26 @@
+{
+  "id": "1d969caf-eb25-47b3-afdd-f3cc6350c218",
+  "name": "saphana",
+  "kind": "saphana",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "localhost",
+      "port": 443,
+      "database": "",
+      "username": ""
+    },
+    "production": {
+      "host": "localhost",
+      "port": 443,
+      "database": "",
+      "username": ""
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 443,
+      "database": "",
+      "username": ""
+    }
+  }
+}

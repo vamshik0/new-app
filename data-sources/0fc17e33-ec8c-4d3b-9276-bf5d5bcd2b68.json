@@ -1,0 +1,44 @@
+{
+  "id": "0fc17e33-ec8c-4d3b-9276-bf5d5bcd2b68",
+  "name": "mysql",
+  "kind": "mysql",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "localhost",
+      "port": 3306,
+      "protocol": "hostname",
+      "ssh_port": 22,
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    },
+    "production": {
+      "host": "localhost",
+      "port": 3306,
+      "protocol": "hostname",
+      "ssh_port": 22,
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    },
+    "staging": {
+      "host": "localhost",
+      "port": 3306,
+      "protocol": "hostname",
+      "ssh_port": 22,
+      "ssh_enabled": "disabled",
+      "ssl_enabled": false,
+      "ssh_auth_type": "private_key",
+      "connection_type": "manual",
+      "ssl_certificate": "none",
+      "allow_dynamic_connection_parameters": false
+    }
+  }
+}
