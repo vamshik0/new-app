@@ -1,0 +1,26 @@
+{
+  "id": "b4eaf7c4-8dd4-43a8-8b24-8873f5324b04",
+  "name": "minio",
+  "kind": "minio",
+  "type": "default",
+  "options": {
+    "development": {
+      "host": "play.min.io",
+      "port": 9000,
+      "access_key": "",
+      "ssl_enabled": true
+    },
+    "production": {
+      "host": "play.min.io",
+      "port": 9000,
+      "access_key": "",
+      "ssl_enabled": true
+    },
+    "staging": {
+      "host": "play.min.io",
+      "port": 9000,
+      "access_key": "",
+      "ssl_enabled": true
+    }
+  }
+}
