@@ -18,5 +18,9 @@
   "b3dddbb6-7d7e-456f-b08f-a18472651b75": {
     "appPath": "apps/Pinned-Version-check",
     "updatedAt": "2026-04-24T10:42:12.770Z"
+  },
+  "39f9a222-5cf9-486d-9e9d-7ee9964752b1": {
+    "appPath": "apps/common-app-1",
+    "updatedAt": "2026-05-22T11:12:55.945Z"
   }
 }
