@@ -3,11 +3,11 @@
   "name": "mongoDB_type",
   "type": "front-end",
   "slug": "7818419a-7f25-4d5d-bca6-8501b71e8eab",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "share",
-  "tooljetVersion": "3.21.21-beta-ee"
+  "tooljetVersion": "3.21.36-beta-ee"
 }

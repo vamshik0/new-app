@@ -4,12 +4,12 @@
     "updatedAt": "2026-04-20T14:29:14.425Z"
   },
   "5989d92a-d0e2-48af-97d6-6a6c51061737": {
-    "appPath": "apps/DS/Snowflake_update",
-    "updatedAt": "2026-04-20T15:02:29.341Z"
+    "appPath": "apps/Redis-cache/Snowflake_update",
+    "updatedAt": "2026-05-25T05:59:24.182Z"
   },
   "9449d8f5-e192-40ba-8505-2708d92658ca": {
-    "appPath": "apps/DS/mongoDB_type",
-    "updatedAt": "2026-04-20T15:03:25.868Z"
+    "appPath": "apps/Redis-cache/mongoDB_type",
+    "updatedAt": "2026-05-25T05:58:41.964Z"
   },
   "69ec56be-c7c0-4889-aa92-192a35894330": {
     "appPath": "apps/DS/Redis-cache",

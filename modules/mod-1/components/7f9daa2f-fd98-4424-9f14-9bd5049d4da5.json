@@ -37,6 +37,9 @@
     },
     "verticalAlignment": {
       "value": "center"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
@@ -52,12 +55,6 @@
     },
     "loadingState": {
       "value": "{{false}}"
-    },
-    "disabledState": {
-      "value": "{{false}}"
-    },
-    "visibility": {
-      "value": "{{true}}"
     },
     "fontWeight": {
       "value": "bold"
@@ -75,11 +72,7 @@
       "value": "center"
     }
   },
-  "generalStyles": {
-    "boxShadow": {
-      "value": "0px 0px 0px 0px #00000040"
-    }
-  },
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"
