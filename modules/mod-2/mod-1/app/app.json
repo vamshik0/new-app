@@ -1,13 +1,13 @@
 {
-  "id": "9449d8f5-e192-40ba-8505-2708d92658ca",
-  "name": "mongoDB_type",
-  "type": "front-end",
-  "slug": "7818419a-7f25-4d5d-bca6-8501b71e8eab",
+  "id": "a2a43790-09e3-47c3-ad4e-2943da627aa7",
+  "name": "mod-1",
+  "type": "module",
+  "slug": "4dcb461c-a081-4807-b24a-ad4c1cf5ca63",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "share",
+  "icon": "floppydisk",
   "tooljetVersion": "3.21.36-beta-ee"
 }
