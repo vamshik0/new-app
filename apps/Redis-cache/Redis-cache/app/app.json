@@ -1,13 +1,13 @@
 {
-  "id": "3285d64b-f155-4614-b364-761ce129ed8b",
-  "name": "mod-2",
-  "type": "module",
-  "slug": "9bc14217-2882-46eb-913c-ce8e1cb73c60",
+  "id": "69ec56be-c7c0-4889-aa92-192a35894330",
+  "name": "Redis-cache",
+  "type": "front-end",
+  "slug": "df2be4ac-053f-48e3-90e0-783781bc3a37",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "shield",
+  "icon": "share",
   "tooljetVersion": "3.21.36-beta-ee"
 }

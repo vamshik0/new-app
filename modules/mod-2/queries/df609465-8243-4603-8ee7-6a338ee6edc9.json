@@ -11,10 +11,12 @@
     "json_body": null,
     "body_toggle": false,
     "retry_network_errors": true,
-    "enable_transformation": false,
-    "run_on_page_load": false,
-    "transformationLanguage": "javascript"
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "runOnPageLoad": false
   },
   "dataSourceId": "d063bddb-efd6-4eba-9e97-c222dd04f337",
-  "appVersionId": "932d6189-d3db-4fe3-80b1-df9530c6077d"
+  "appVersionId": "932d6189-d3db-4fe3-80b1-df9530c6077d",
+  "kind": "restapi",
+  "dataSourceType": "default"
 }

@@ -3,11 +3,11 @@
   "name": "mod-4",
   "type": "module",
   "slug": "a3068405-e3e6-432e-9778-6e14dde20647",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "archive",
-  "tooljetVersion": "3.21.21-beta-ee"
+  "tooljetVersion": "3.21.36-beta-ee"
 }
