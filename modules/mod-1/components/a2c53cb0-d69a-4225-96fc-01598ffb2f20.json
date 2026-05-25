@@ -11,12 +11,6 @@
     "label": {
       "value": "Age"
     },
-    "maxValue": {
-      "value": ""
-    },
-    "minValue": {
-      "value": ""
-    },
     "placeholder": {
       "value": "0"
     },
@@ -36,6 +30,9 @@
       "value": "{{false}}"
     },
     "showClearBtn": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
       "value": "{{false}}"
     }
   },
@@ -96,11 +93,7 @@
       "value": "ofComponent"
     }
   },
-  "generalStyles": {
-    "boxShadow": {
-      "value": "0px 0px 0px 0px #00000040"
-    }
-  },
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"

@@ -28,6 +28,9 @@
     },
     "showClearBtn": {
       "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
@@ -87,11 +90,7 @@
       "value": "ofComponent"
     }
   },
-  "generalStyles": {
-    "boxShadow": {
-      "value": "0px 0px 0px 0px #00000040"
-    }
-  },
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"

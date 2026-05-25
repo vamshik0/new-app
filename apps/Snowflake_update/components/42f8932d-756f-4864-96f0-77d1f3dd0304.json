@@ -12,7 +12,7 @@
       "value": "a2a43790-09e3-47c3-ad4e-2943da627aa7"
     },
     "moduleVersionId": {
-      "value": "v1"
+      "value": "f1de6fe1-525c-48fa-8a8e-23781af3bd7c"
     }
   },
   "general": {
@@ -23,6 +23,9 @@
   "styles": {
     "backgroundColor": {
       "value": "#fff"
+    },
+    "padding": {
+      "value": "default"
     }
   },
   "generalStyles": {

@@ -3,11 +3,11 @@
   "name": "Snowflake_update",
   "type": "front-end",
   "slug": "f54a5e4e-ab0e-43ce-91a1-62721de00d68",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "folderupload",
-  "tooljetVersion": "3.21.21-beta-ee"
+  "tooljetVersion": "3.21.36-beta-ee"
 }
