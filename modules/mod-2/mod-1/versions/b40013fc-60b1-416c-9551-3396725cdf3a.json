@@ -1,5 +1,5 @@
 {
-  "id": "932d6189-d3db-4fe3-80b1-df9530c6077d",
+  "id": "b40013fc-60b1-416c-9551-3396725cdf3a",
   "definition": {},
   "globalSettings": {
     "appInMaintenance": false,
@@ -12,15 +12,15 @@
   },
   "pageSettings": {},
   "showViewerNavigation": false,
-  "homePageId": "c0235e35-3220-4fbc-abfc-318303fea196",
+  "homePageId": "d109a116-1551-4eba-baf2-13fbdcda1876",
   "versionType": "version",
-  "appId": "3285d64b-f155-4614-b364-761ce129ed8b",
+  "appId": "a2a43790-09e3-47c3-ad4e-2943da627aa7",
   "promotedFrom": null,
   "status": "PUBLISHED",
   "description": "",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "moduleReferenceId": "094ccfae-40a6-4d63-9359-6c758b578140",
+  "moduleReferenceId": "f1de6fe1-525c-48fa-8a8e-23781af3bd7c",
   "sourceTag": null
 }
