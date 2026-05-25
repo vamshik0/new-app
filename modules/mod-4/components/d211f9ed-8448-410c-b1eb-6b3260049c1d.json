@@ -15,13 +15,13 @@
       "value": "{{true}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "backgroundColor": {
       "value": "#fff"
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {
     "showOnDesktop": {
       "value": "{{true}}"
@@ -30,7 +30,7 @@
       "value": "{{true}}"
     }
   },
-  "validation": null,
+  "validation": {},
   "layouts": [
     {
       "id": "003a6498-eada-4eec-90b1-dd61d92149aa",

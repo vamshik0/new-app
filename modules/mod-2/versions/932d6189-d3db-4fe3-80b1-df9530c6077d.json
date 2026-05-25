@@ -17,9 +17,10 @@
   "appId": "3285d64b-f155-4614-b364-761ce129ed8b",
   "promotedFrom": null,
   "status": "PUBLISHED",
-  "description": null,
+  "description": "",
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
+  "moduleReferenceId": "094ccfae-40a6-4d63-9359-6c758b578140",
   "sourceTag": null
 }

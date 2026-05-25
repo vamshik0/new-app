@@ -22,6 +22,9 @@
     },
     "tooltip": {
       "value": ""
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
   "general": {},
