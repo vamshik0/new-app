@@ -3,11 +3,11 @@
   "name": "main-1",
   "type": "module",
   "slug": "b42be5c4-176d-4499-a45b-c47966afd0db",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "server",
-  "tooljetVersion": "3.21.21-beta-ee"
+  "tooljetVersion": "3.21.36-beta-ee"
 }
