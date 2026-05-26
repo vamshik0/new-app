@@ -22,5 +22,9 @@
   "382749f0-0ed2-49e5-8c09-568e522cdacd": {
     "appPath": "modules/common-module-1",
     "updatedAt": "2026-05-24T08:35:33.192Z"
+  },
+  "c017b4f5-8c51-4b80-ad34-69a56d91c5e6": {
+    "appPath": "modules/new-module-1",
+    "updatedAt": "2026-05-26T11:56:53.973Z"
   }
 }
