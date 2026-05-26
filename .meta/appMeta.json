@@ -42,5 +42,9 @@
   "ae335c39-95bc-4e13-b218-c0f9980bbac7": {
     "appPath": "apps/DL dashboard/DL instance",
     "updatedAt": "2026-05-26T08:43:01.629Z"
+  },
+  "98e8af0e-0e6d-4c98-84b4-9810d2d4d722": {
+    "appPath": "apps/DL dashboard/DL workspace",
+    "updatedAt": "2026-05-26T08:45:06.399Z"
   }
 }
