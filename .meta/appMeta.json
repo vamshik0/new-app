@@ -46,5 +46,9 @@
   "98e8af0e-0e6d-4c98-84b4-9810d2d4d722": {
     "appPath": "apps/DL dashboard/DL workspace",
     "updatedAt": "2026-05-26T08:45:06.399Z"
+  },
+  "4d7d4bb8-8b3e-493b-8ac5-26d5ee1bab76": {
+    "appPath": "apps/DL dashboard/DL dashboard",
+    "updatedAt": "2026-05-26T08:51:12.112Z"
   }
 }
