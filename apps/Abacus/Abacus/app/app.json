@@ -1,0 +1,13 @@
+{
+  "id": "d317d1e2-ed33-405c-beac-730d4b68c9c2",
+  "name": "Abacus",
+  "type": "front-end",
+  "slug": "b3b82355-d30b-41bd-8e8d-6209b81e18d6",
+  "isPublic": null,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "layers",
+  "tooljetVersion": "3.21.36-beta-ee"
+}
