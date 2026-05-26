@@ -1,0 +1,13 @@
+{
+  "id": "ae335c39-95bc-4e13-b218-c0f9980bbac7",
+  "name": "DL instance",
+  "type": "front-end",
+  "slug": "29a389fd-565c-4d65-8fe9-379ebaf3f6c9",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.36-beta-ee"
+}
