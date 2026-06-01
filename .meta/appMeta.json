@@ -54,5 +54,9 @@
   "d317d1e2-ed33-405c-beac-730d4b68c9c2": {
     "appPath": "apps/Abacus/Abacus",
     "updatedAt": "2026-05-26T09:46:13.957Z"
+  },
+  "762df1a4-ed63-4bff-b241-154b3e9280e5": {
+    "appPath": "apps/tj-app-1",
+    "updatedAt": "2026-06-01T08:08:45.892Z"
   }
 }
