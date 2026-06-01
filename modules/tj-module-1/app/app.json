@@ -1,0 +1,13 @@
+{
+  "id": "0873ad40-970f-43cb-b35b-fa1c55a8f17d",
+  "name": "tj-module-1",
+  "type": "module",
+  "slug": "18752466-4bf0-4dd9-b8aa-f82cc2342c15",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "apps",
+  "tooljetVersion": "3.21.37-beta-ee"
+}

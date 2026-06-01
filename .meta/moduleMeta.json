@@ -26,5 +26,9 @@
   "c017b4f5-8c51-4b80-ad34-69a56d91c5e6": {
     "appPath": "modules/new-module-1",
     "updatedAt": "2026-05-26T11:56:53.973Z"
+  },
+  "0873ad40-970f-43cb-b35b-fa1c55a8f17d": {
+    "appPath": "modules/tj-module-1",
+    "updatedAt": "2026-06-01T08:08:21.037Z"
   }
 }
