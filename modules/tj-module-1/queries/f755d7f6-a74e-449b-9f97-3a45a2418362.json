@@ -1,0 +1,14 @@
+{
+  "id": "f755d7f6-a74e-449b-9f97-3a45a2418362",
+  "name": "runjs1",
+  "options": {
+    "code": "return 'hello tooljet!'",
+    "parameters": [],
+    "requestConfirmation": false,
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "af28d604-3f5b-4249-98d3-977501de82de",
+  "appVersionId": "d29595d2-8eb6-417d-a31c-1357fdd3cc8f",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
