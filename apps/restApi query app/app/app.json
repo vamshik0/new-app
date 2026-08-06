@@ -1,0 +1,13 @@
+{
+  "id": "846da9f9-d52d-468e-a02f-c18e746bc60b",
+  "name": "restApi query app",
+  "type": "front-end",
+  "slug": "7aefe1b9-cb98-4a78-950c-61dff58c4100",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "draghandle",
+  "tooljetVersion": "3.21.56-beta-ee"
+}
