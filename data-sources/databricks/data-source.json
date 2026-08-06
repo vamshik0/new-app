@@ -1,0 +1,11 @@
+{
+  "id": "787e7e76-238c-46fd-84b4-ed0e4d9e0e5e",
+  "kind": "databricks",
+  "name": "databricks",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  },
+  "type": "default"
+}

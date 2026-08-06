@@ -1,0 +1,11 @@
+{
+  "id": "eb56b023-3a02-4a3e-b953-98fd0b043f5d",
+  "kind": "gcs",
+  "name": "gcs",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  },
+  "type": "default"
+}

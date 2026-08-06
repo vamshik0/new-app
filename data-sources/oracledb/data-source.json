@@ -1,0 +1,56 @@
+{
+  "id": "fcc8568b-2bf5-47fc-9c0c-8e448274319b",
+  "kind": "oracledb",
+  "name": "oracledb",
+  "options": {
+    "development": {
+      "client_path_type": "default",
+      "config_dir": "",
+      "database": "",
+      "database_type": "SID",
+      "host": "localhost",
+      "instant_client_version": "21_10",
+      "path": "",
+      "port": 1521,
+      "ssl_enabled": true,
+      "tns_alias": "",
+      "use_tns_alias": "no",
+      "username": "",
+      "wallet_file": "",
+      "wallet_file_path": ""
+    },
+    "production": {
+      "client_path_type": "default",
+      "config_dir": "",
+      "database": "",
+      "database_type": "SID",
+      "host": "localhost",
+      "instant_client_version": "21_10",
+      "path": "",
+      "port": 1521,
+      "ssl_enabled": true,
+      "tns_alias": "",
+      "use_tns_alias": "no",
+      "username": "",
+      "wallet_file": "",
+      "wallet_file_path": ""
+    },
+    "staging": {
+      "client_path_type": "default",
+      "config_dir": "",
+      "database": "",
+      "database_type": "SID",
+      "host": "localhost",
+      "instant_client_version": "21_10",
+      "path": "",
+      "port": 1521,
+      "ssl_enabled": true,
+      "tns_alias": "",
+      "use_tns_alias": "no",
+      "username": "",
+      "wallet_file": "",
+      "wallet_file_path": ""
+    }
+  },
+  "type": "default"
+}
