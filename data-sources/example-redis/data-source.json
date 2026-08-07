@@ -1,7 +1,7 @@
 {
-  "id": "b9992d3f-b21f-48a5-a12d-fd7ece73a07e",
+  "id": "fd7c1df5-3d06-45dd-8a1a-659c5efd65b4",
   "kind": "redis",
-  "name": "redis",
+  "name": "example-redis",
   "options": {
     "development": {
       "host": "localhost",
