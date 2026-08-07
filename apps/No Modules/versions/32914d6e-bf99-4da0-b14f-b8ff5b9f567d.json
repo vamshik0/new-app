@@ -1,6 +1,6 @@
 {
-  "id": "d6629e76-09a4-4fc9-ad3d-383bfee116bc",
-  "definition": {},
+  "id": "32914d6e-bf99-4da0-b14f-b8ff5b9f567d",
+  "definition": null,
   "globalSettings": {
     "appInMaintenance": false,
     "canvasMaxWidth": 100,
@@ -10,16 +10,18 @@
     "backgroundFxQuery": "",
     "appMode": "light"
   },
-  "pageSettings": {},
+  "pageSettings": null,
   "showViewerNavigation": true,
-  "homePageId": "2d6fe23f-34a3-4e32-baf1-355204598be0",
-  "versionType": "branch",
-  "appId": "3e700b44-9a22-4121-8f7d-1117edc57602",
+  "homePageId": "973e4528-3f7b-4d08-a415-e62e42c22ca6",
+  "versionType": "version",
+  "appId": "32914d6e-bf99-4da0-b14f-b8ff5b9f567d",
   "promotedFrom": null,
   "status": "DRAFT",
   "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "sourceTag": null
+  "gitTreeSha": null,
+  "sourceTag": null,
+  "isSynced": false
 }
