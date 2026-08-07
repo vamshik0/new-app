@@ -1,46 +1,49 @@
 {
-  "id": "4afe6508-5784-4bfe-a4f7-35a92e10ccf6",
-  "kind": "mssql",
-  "name": "mssql",
+  "id": "c6e992c6-eae7-44e0-aad3-41d40be2f2b4",
+  "kind": "postgresql",
+  "name": "unsynced-postgresql",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": false,
-      "auth_type": "sql",
-      "azure": false,
       "connection_type": "manual",
-      "host": "localhost",
-      "port": 1433,
+      "database": "app_dev",
+      "host": "9.234.17.31",
+      "password": "{{constants.password}}",
+      "port": 5432,
       "ssh_auth_type": "private_key",
       "ssh_enabled": "disabled",
       "ssh_port": 22,
       "ssl_certificate": "none",
-      "ssl_enabled": false
+      "ssl_enabled": false,
+      "username": "postgres"
     },
     "production": {
       "allow_dynamic_connection_parameters": false,
-      "auth_type": "sql",
-      "azure": false,
       "connection_type": "manual",
-      "host": "localhost",
-      "port": 1433,
+      "database": "app_prod",
+      "host": "9.234.17.31",
+      "password": "{{constants.password}}",
+      "port": 5432,
       "ssh_auth_type": "private_key",
       "ssh_enabled": "disabled",
       "ssh_port": 22,
       "ssl_certificate": "none",
-      "ssl_enabled": false
+      "ssl_enabled": false,
+      "username": "postgres"
     },
     "staging": {
       "allow_dynamic_connection_parameters": false,
-      "auth_type": "sql",
-      "azure": false,
       "connection_type": "manual",
-      "host": "localhost",
-      "port": 1433,
+      "database": "app_stage",
+      "host": "9.234.17.31",
+      "password": "{{constants.password}}",
+      "port": 5432,
       "ssh_auth_type": "private_key",
       "ssh_enabled": "disabled",
       "ssh_port": 22,
       "ssl_certificate": "none",
-      "ssl_enabled": false
+      "ssl_enabled": false,
+      "username": "postgres"
     }
   },
   "type": "default"

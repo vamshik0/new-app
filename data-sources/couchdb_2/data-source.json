@@ -1,7 +1,7 @@
 {
-  "id": "a988f790-d1fe-4a5e-a894-1fee0d45fa75",
+  "id": "add030d2-5694-4719-9971-36a4bd58c117",
   "kind": "couchdb",
-  "name": "couchdb",
+  "name": "couchdb_2",
   "options": {
     "development": {
       "database": "",

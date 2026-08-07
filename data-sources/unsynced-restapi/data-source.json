@@ -1,7 +1,7 @@
 {
-  "id": "d063bddb-efd6-4eba-9e97-c222dd04f337",
+  "id": "d7bfa8f5-5772-4a29-b0cb-05e2558e2bb9",
   "kind": "restapi",
-  "name": "IMP-restapi",
+  "name": "unsynced-restapi",
   "options": {
     "development": {
       "access_token_custom_headers": [
@@ -41,7 +41,7 @@
       "retry_network_errors": true,
       "scopes": "read, write",
       "ssl_certificate": "none",
-      "url": "https://jsonplaceholder.typicode.com/posts",
+      "url": "",
       "username": ""
     },
     "production": {
@@ -82,7 +82,7 @@
       "retry_network_errors": true,
       "scopes": "read, write",
       "ssl_certificate": "none",
-      "url": "https://jsonplaceholder.typicode.com/photos",
+      "url": "",
       "username": ""
     },
     "staging": {
@@ -123,7 +123,7 @@
       "retry_network_errors": true,
       "scopes": "read, write",
       "ssl_certificate": "none",
-      "url": "https://jsonplaceholder.typicode.com/comments",
+      "url": "",
       "username": ""
     }
   },

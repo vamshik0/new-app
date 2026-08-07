@@ -1,7 +1,7 @@
 {
-  "id": "027f160e-f7c5-40b5-bb92-05975be71adc",
-  "kind": "clickhouse",
-  "name": "clickhouse",
+  "id": "dd34b1af-5347-4f0a-931f-9aa1668ff3ec",
+  "kind": "firestore",
+  "name": "firestore_2",
   "options": {
     "development": {},
     "production": {},
