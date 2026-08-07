@@ -1,7 +1,7 @@
 {
-  "id": "027f160e-f7c5-40b5-bb92-05975be71adc",
-  "kind": "clickhouse",
-  "name": "clickhouse",
+  "id": "48688941-3851-41c7-bee0-640f7d1d7bdd",
+  "kind": "gcs",
+  "name": "gcs_2",
   "options": {
     "development": {},
     "production": {},

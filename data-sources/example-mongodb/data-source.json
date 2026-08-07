@@ -1,7 +1,7 @@
 {
-  "id": "edbda4e4-6ece-48fc-9b64-53b3961397c8",
+  "id": "8e46d2e9-d6d0-4149-b36e-4fe77cb6e89c",
   "kind": "mongodb",
-  "name": "mongodb",
+  "name": "example-mongodb",
   "options": {
     "development": {
       "connection_format": "mongodb",
