@@ -1,0 +1,41 @@
+{
+  "id": "2c819b6a-8c7b-4bc9-b782-9eb1b1210429",
+  "kind": "bigquery",
+  "name": "bigquery",
+  "options": {
+    "development": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "access_type": "read",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "authentication_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize"
+    },
+    "production": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "access_type": "read",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "authentication_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize"
+    },
+    "staging": {
+      "access_token_url": "https://oauth2.googleapis.com/token",
+      "access_type": "read",
+      "allowed_auth_types": "oauth2",
+      "auth_type": "oauth2",
+      "auth_url": "https://accounts.google.com/o/oauth2/v2/auth",
+      "authentication_type": "oauth2",
+      "grant_type": "authorization_code",
+      "oauth_type": "custom_app",
+      "redirect_url": "http://localhost:8082/oauth2/authorize"
+    }
+  },
+  "type": "default"
+}
