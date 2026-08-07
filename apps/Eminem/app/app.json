@@ -1,0 +1,13 @@
+{
+  "id": "5733c789-63d9-4cf8-9037-8db59d661d61",
+  "name": "Eminem",
+  "type": "front-end",
+  "slug": "419e9ed4-7dac-4193-abfc-d19ae8a80df3",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "floppydisk",
+  "tooljetVersion": "3.21.56-beta-ee"
+}
