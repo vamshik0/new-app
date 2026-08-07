@@ -1,0 +1,17 @@
+{
+  "id": "d6884fba-25eb-4867-b46d-6dc68c321cd4",
+  "kind": "slack",
+  "name": "slack",
+  "options": {
+    "development": {
+      "access_type": "read"
+    },
+    "production": {
+      "access_type": "read"
+    },
+    "staging": {
+      "access_type": "read"
+    }
+  },
+  "type": "default"
+}
