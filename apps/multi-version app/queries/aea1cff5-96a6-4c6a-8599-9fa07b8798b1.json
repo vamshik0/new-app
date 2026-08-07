@@ -1,0 +1,14 @@
+{
+  "id": "aea1cff5-96a6-4c6a-8599-9fa07b8798b1",
+  "name": "snowflake1",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "select * from dev1"
+  },
+  "dataSourceId": "e6c2657d-9efe-4eaf-afa3-92d32a00a29c",
+  "appVersionId": "939164a1-9548-48bb-b87b-8e8b953e6641",
+  "kind": "snowflake",
+  "dataSourceType": "default"
+}
