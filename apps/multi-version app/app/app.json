@@ -1,0 +1,13 @@
+{
+  "id": "939164a1-9548-48bb-b87b-8e8b953e6641",
+  "name": "multi-version app",
+  "type": "front-end",
+  "slug": "5270369d-ca19-4a86-99b5-b444226382ce",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.56-beta-ee"
+}
