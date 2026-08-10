@@ -1,0 +1,13 @@
+{
+  "id": "405dd382-02e9-408a-8122-aefecf3e42c4",
+  "name": "Al Pacino",
+  "type": "front-end",
+  "slug": "2b6eb26b-236e-49bb-9592-001772bc116d",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "sentfast",
+  "tooljetVersion": "3.21.57-beta-ee"
+}
