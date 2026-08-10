@@ -1,0 +1,13 @@
+{
+  "id": "ad893a37-8651-4052-9f83-d42cbf734f47",
+  "name": "Stationary app",
+  "type": "front-end",
+  "slug": "a22bca36-b4ac-45d1-8daa-d2cc50c4ffa8",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "menuhome",
+  "tooljetVersion": "3.21.57-beta-ee"
+}
