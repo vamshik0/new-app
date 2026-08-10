@@ -1,0 +1,13 @@
+{
+  "id": "72965afb-db6f-4745-b5dd-97eb63328630",
+  "name": "actors-module",
+  "type": "module",
+  "slug": "54aac9c0-8feb-4e8f-b4f1-5d18fcf7004b",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "table",
+  "tooljetVersion": "3.21.57-beta-ee"
+}
