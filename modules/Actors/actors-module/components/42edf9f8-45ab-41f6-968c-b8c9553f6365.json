@@ -1,0 +1,77 @@
+{
+  "id": "42edf9f8-45ab-41f6-968c-b8c9553f6365",
+  "name": "customcomponent1",
+  "type": "CustomComponent",
+  "pageId": "c6383ee6-6730-4d39-9f0c-774d1b102e16",
+  "parent": "0c1dd4c5-8543-4f81-a316-e9ee1332ca71",
+  "properties": {
+    "visible": {
+      "value": "{{true}}"
+    },
+    "data": {
+      "value": "{{ {\n  title: 'Hi ToolJet!',\n  buttons: [\n    { label: 'Build an Application', color: 'primary',   variant: 'outlined',   queryName: 'query1' },\n    { label: 'Run Report',           color: 'secondary', variant: 'contained',  queryName: 'query2' },\n    { label: 'Export',               color: 'default',   variant: 'outlined',   queryName: 'query3' },\n    { label: 'Refresh',              color: 'primary',   variant: 'contained',  queryName: 'query4' },\n    { label: 'Farmers',              color: 'secondary',   variant: 'outlined',  queryName: 'query5' }\n  ]\n} }}"
+    },
+    "code": {
+      "value": "import React from 'https://cdn.jsdelivr.net/npm/react@17.0.2/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@17.0.2/+esm';\nimport { Button, Container } from 'https://cdn.jsdelivr.net/npm/@material-ui/core@4.12.4/+esm';\n\nconst MyCustomComponent = ({ data, updateData, runQuery }) => (\n  <Container>\n    <h1>{data.title}</h1>\n    <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>\n      {(data.buttons || []).map((btn, i) => (\n        <Button\n          key={i}\n          color={btn.color || 'primary'}\n          variant={btn.variant || 'outlined'}\n          onClick={() => btn.queryName && runQuery(btn.queryName)}\n        >\n          {btn.label}\n        </Button>\n      ))}\n    </div>\n  </Container>\n);\n\nconst ConnectedComponent = Tooljet.connectComponent(MyCustomComponent);\nReactDOM.render(<ConnectedComponent />, document.body);",
+      "skipResolve": true
+    }
+  },
+  "general": {},
+  "styles": {
+    "cssClass": {
+      "value": ""
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "borderColor": {
+      "value": "var(--cc-weak-border)"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "396c99ae-bddb-41b7-bd04-1a36b6891e2c",
+      "type": "desktop",
+      "top": 30,
+      "left": 1,
+      "width": 37,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "42edf9f8-45ab-41f6-968c-b8c9553f6365",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "e44c3ebf-9f2c-4f1e-9776-d92ce2bc6147",
+      "type": "mobile",
+      "top": 30,
+      "left": 1,
+      "width": 23,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "42edf9f8-45ab-41f6-968c-b8c9553f6365",
+      "dimensionUnit": "count"
+    }
+  ]
+}
