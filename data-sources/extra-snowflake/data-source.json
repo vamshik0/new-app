@@ -1,0 +1,23 @@
+{
+  "id": "d47892c6-648b-4e7b-9976-592384c6f4e7",
+  "kind": "snowflake",
+  "name": "extra-snowflake",
+  "options": {
+    "development": {
+      "allow_dynamic_connection_parameters": false,
+      "auth_type": "basic",
+      "grant_type": "authorization_code"
+    },
+    "production": {
+      "allow_dynamic_connection_parameters": false,
+      "auth_type": "basic",
+      "grant_type": "authorization_code"
+    },
+    "staging": {
+      "allow_dynamic_connection_parameters": false,
+      "auth_type": "basic",
+      "grant_type": "authorization_code"
+    }
+  },
+  "type": "default"
+}
