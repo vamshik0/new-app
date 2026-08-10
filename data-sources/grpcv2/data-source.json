@@ -1,0 +1,107 @@
+{
+  "id": "78c6c712-fd2f-4999-96a6-d0c88f625d18",
+  "kind": "grpcv2",
+  "name": "grpcv2",
+  "options": {
+    "development": {
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "client_auth": "header",
+      "client_id": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_file_url": "",
+      "proto_files": "server_reflection",
+      "proto_files_directory": "",
+      "proto_files_pattern": "**/*.proto",
+      "scopes": "read, write",
+      "selected_services": [],
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "url": "",
+      "username": ""
+    },
+    "production": {
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "client_auth": "header",
+      "client_id": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_file_url": "",
+      "proto_files": "server_reflection",
+      "proto_files_directory": "",
+      "proto_files_pattern": "**/*.proto",
+      "scopes": "read, write",
+      "selected_services": [],
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "url": "",
+      "username": ""
+    },
+    "staging": {
+      "access_token_url": "",
+      "add_token_to": "header",
+      "audience": "",
+      "auth_type": "none",
+      "auth_url": "",
+      "client_auth": "header",
+      "client_id": "",
+      "custom_auth_params": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "grant_type": "authorization_code",
+      "header_prefix": "Bearer ",
+      "metadata": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "proto_file_url": "",
+      "proto_files": "server_reflection",
+      "proto_files_directory": "",
+      "proto_files_pattern": "**/*.proto",
+      "scopes": "read, write",
+      "selected_services": [],
+      "ssl_certificate": "none",
+      "ssl_enabled": false,
+      "url": "",
+      "username": ""
+    }
+  },
+  "type": "default"
+}
