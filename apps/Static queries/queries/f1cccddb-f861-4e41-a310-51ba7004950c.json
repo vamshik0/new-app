@@ -1,0 +1,21 @@
+{
+  "id": "f1cccddb-f861-4e41-a310-51ba7004950c",
+  "name": "workflows1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ],
+    "workflowId": "3d12bdfa-e5c3-45c6-94e0-224c9da371e8",
+    "workflowVersionId": "37513872-f7bc-451f-8859-ada0fa778dc5",
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "e9879e4b-b94c-409d-8c16-36f737409e28",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

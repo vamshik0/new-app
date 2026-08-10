@@ -1,0 +1,13 @@
+{
+  "id": "e9879e4b-b94c-409d-8c16-36f737409e28",
+  "name": "Static queries",
+  "type": "front-end",
+  "slug": "f96efae6-7839-4ef6-8022-60afa2141c50",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.57-beta-ee"
+}
