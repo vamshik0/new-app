@@ -3,11 +3,11 @@
   "name": "Abacus",
   "type": "front-end",
   "slug": "b3b82355-d30b-41bd-8e8d-6209b81e18d6",
-  "isPublic": null,
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
   "icon": "layers",
-  "tooljetVersion": "3.21.36-beta-ee"
+  "tooljetVersion": "3.21.56-beta-ee"
 }
