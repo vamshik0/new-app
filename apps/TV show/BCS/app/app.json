@@ -1,0 +1,13 @@
+{
+  "id": "1d7faaab-3ba0-4674-b7da-fcc5bc693c79",
+  "name": "BCS",
+  "type": "front-end",
+  "slug": "95acab32-4eed-40d5-abfa-5154cba10459",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "grid",
+  "tooljetVersion": "3.21.57-beta-ee"
+}
