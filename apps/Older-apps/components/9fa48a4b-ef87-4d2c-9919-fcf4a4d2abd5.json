@@ -1,8 +1,8 @@
 {
-  "id": "fd298c06-6b17-430c-8eb9-4058ef83fe5c",
+  "id": "9fa48a4b-ef87-4d2c-9919-fcf4a4d2abd5",
   "name": "chart1",
   "type": "Chart",
-  "pageId": "b5be8a03-a4a5-47b0-90e5-ced88327f852",
+  "pageId": "9e008cd4-645e-4341-9bb1-f194deb60ec9",
   "parent": null,
   "properties": {
     "title": {
@@ -76,7 +76,7 @@
   "validation": {},
   "layouts": [
     {
-      "id": "cedebffe-bd08-4961-89f3-bf80613136eb",
+      "id": "82430237-8d3d-479e-a987-310bc3662a6e",
       "type": "desktop",
       "top": 160,
       "left": 1,
@@ -84,11 +84,11 @@
       "height": 420,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "fd298c06-6b17-430c-8eb9-4058ef83fe5c",
+      "componentId": "9fa48a4b-ef87-4d2c-9919-fcf4a4d2abd5",
       "dimensionUnit": "count"
     },
     {
-      "id": "d025bc98-3a55-44c2-a53a-b442a5c044b6",
+      "id": "e4b25bb2-d02b-4937-8e16-280e00ac862c",
       "type": "mobile",
       "top": 340,
       "left": 8,
@@ -96,7 +96,7 @@
       "height": 400,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "fd298c06-6b17-430c-8eb9-4058ef83fe5c",
+      "componentId": "9fa48a4b-ef87-4d2c-9919-fcf4a4d2abd5",
       "dimensionUnit": "count"
     }
   ]
