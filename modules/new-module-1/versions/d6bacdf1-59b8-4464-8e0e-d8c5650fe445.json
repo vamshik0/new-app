@@ -1,5 +1,5 @@
 {
-  "id": "32914d6e-bf99-4da0-b14f-b8ff5b9f567d",
+  "id": "d6bacdf1-59b8-4464-8e0e-d8c5650fe445",
   "definition": null,
   "globalSettings": {
     "appInMaintenance": false,
@@ -11,17 +11,16 @@
     "appMode": "light"
   },
   "pageSettings": null,
-  "showViewerNavigation": true,
-  "homePageId": "973e4528-3f7b-4d08-a415-e62e42c22ca6",
+  "showViewerNavigation": false,
+  "homePageId": "f9d567a2-9521-4f1a-bb38-10109f807ca1",
   "versionType": "version",
-  "appId": "32914d6e-bf99-4da0-b14f-b8ff5b9f567d",
+  "appId": "ea2c56a1-ee12-48d0-8c86-dd438437ff92",
   "promotedFrom": null,
   "status": "DRAFT",
   "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "gitTreeSha": null,
   "sourceTag": null,
   "isSynced": false
 }

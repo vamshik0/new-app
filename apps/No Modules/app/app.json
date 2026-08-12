@@ -1,13 +1,13 @@
 {
-  "id": "32914d6e-bf99-4da0-b14f-b8ff5b9f567d",
+  "id": "b220c7fa-0330-4150-80ac-1f8f3ed24f7e",
   "name": "no modules",
   "type": "front-end",
-  "slug": "387a7344-b4d0-40af-b1c9-36c189d36d62",
+  "slug": "f8ec356d-ff55-4b28-b07e-0f3e7b6efd15",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "draghandle",
-  "tooljetVersion": "3.21.56-beta-ee"
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.59-beta-ee"
 }

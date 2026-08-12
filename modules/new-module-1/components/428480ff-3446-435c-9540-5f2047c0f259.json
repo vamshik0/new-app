@@ -1,9 +1,9 @@
 {
-  "id": "effa1ec1-7961-4e7d-94c4-7c8597b6cacd",
+  "id": "428480ff-3446-435c-9540-5f2047c0f259",
   "name": "text1",
   "type": "Text",
-  "pageId": "973e4528-3f7b-4d08-a415-e62e42c22ca6",
-  "parent": "fe291813-9a3c-4bff-a978-29532c37239c-header",
+  "pageId": "f9d567a2-9521-4f1a-bb38-10109f807ca1",
+  "parent": "960ede2e-c924-449c-aeed-a9e7cc723dd2",
   "properties": {
     "textFormat": {
       "value": "html"
@@ -12,7 +12,7 @@
       "value": "{{false}}"
     },
     "text": {
-      "value": "Modal title"
+      "value": "Hello {{globals.currentUser.firstName}}👋"
     },
     "loadingState": {
       "value": "{{false}}"
@@ -42,13 +42,13 @@
       "value": "var(--cc-primary-text)"
     },
     "textSize": {
-      "value": 20
+      "value": "{{14}}"
     },
     "textAlign": {
       "value": "left"
     },
     "fontWeight": {
-      "value": "bold"
+      "value": "normal"
     },
     "decoration": {
       "value": "none"
@@ -105,27 +105,27 @@
   "validation": {},
   "layouts": [
     {
-      "id": "d0a87bce-4571-4b38-a945-746bcb7cf9db",
+      "id": "6b24477a-0161-462a-a8ef-35193d789370",
       "type": "desktop",
-      "top": 20,
-      "left": 1,
-      "width": 13.953488372093023,
+      "top": 110,
+      "left": 13,
+      "width": 9,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "effa1ec1-7961-4e7d-94c4-7c8597b6cacd",
+      "componentId": "428480ff-3446-435c-9540-5f2047c0f259",
       "dimensionUnit": "count"
     },
     {
-      "id": "05789b62-78c6-42a7-9f25-ecdd30d1d485",
+      "id": "707ee1e9-b771-4a25-90aa-72e8e6edb3f5",
       "type": "mobile",
-      "top": 20,
-      "left": 1,
-      "width": 13.953488372093023,
+      "top": 50,
+      "left": 13,
+      "width": 9,
       "height": 40,
       "widthPx": null,
       "fillWidth": null,
-      "componentId": "effa1ec1-7961-4e7d-94c4-7c8597b6cacd",
+      "componentId": "428480ff-3446-435c-9540-5f2047c0f259",
       "dimensionUnit": "count"
     }
   ]
