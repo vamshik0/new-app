@@ -1,7 +1,7 @@
 {
-  "id": "eb56b023-3a02-4a3e-b953-98fd0b043f5d",
+  "id": "16d621be-c5f9-4b89-b833-21eadf2cf88e",
   "kind": "gcs",
-  "name": "gcs",
+  "name": "Gcs",
   "options": {
     "development": {},
     "production": {},
