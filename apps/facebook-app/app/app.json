@@ -1,0 +1,13 @@
+{
+  "id": "25b7495e-1f8a-4932-a2b5-81c9e658d837",
+  "name": "facebook-app",
+  "type": "front-end",
+  "slug": "89e8ae67-eb12-44d1-bccd-47f2e473dba3",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "apps",
+  "tooljetVersion": "3.21.59-beta-ee"
+}
