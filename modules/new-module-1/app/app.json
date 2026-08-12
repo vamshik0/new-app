@@ -1,13 +1,13 @@
 {
-  "id": "c017b4f5-8c51-4b80-ad34-69a56d91c5e6",
-  "name": "new-module-1",
+  "id": "ea2c56a1-ee12-48d0-8c86-dd438437ff92",
+  "name": "New-Module-1",
   "type": "module",
-  "slug": "aa1c8b94-d388-4d7a-80af-f394d65d9414",
-  "isPublic": null,
+  "slug": "b81df5f8-f9df-45f0-862f-431e479ceb0d",
+  "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "server",
-  "tooljetVersion": "3.21.36-beta-ee"
+  "icon": "draghandle",
+  "tooljetVersion": "3.21.59-beta-ee"
 }
