@@ -1,0 +1,13 @@
+{
+  "id": "176a843d-e2bb-4cff-84d0-a19461fe0901",
+  "name": "subtle-art",
+  "type": "front-end",
+  "slug": "74151444-f63e-430a-8265-0fd4b2ba5e15",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "floppydisk",
+  "tooljetVersion": "3.21.59-beta-ee"
+}
