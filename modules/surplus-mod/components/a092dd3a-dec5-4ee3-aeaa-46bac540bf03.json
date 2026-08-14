@@ -1,0 +1,120 @@
+{
+  "id": "a092dd3a-dec5-4ee3-aeaa-46bac540bf03",
+  "name": "button2",
+  "type": "Button",
+  "pageId": "87b3ceb6-299f-43ca-9003-d388dc7ef600",
+  "parent": "abe139e3-6d00-4e80-b33a-05d8570bdddf",
+  "properties": {
+    "text": {
+      "value": "v1"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "tooltip": {
+      "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "textColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "loaderColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "borderRadius": {
+      "value": "{{6}}"
+    },
+    "backgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "iconColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "direction": {
+      "value": "left"
+    },
+    "padding": {
+      "value": "default"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000090"
+    },
+    "icon": {
+      "value": "IconAlignBoxBottomLeft"
+    },
+    "iconVisibility": {
+      "value": false
+    },
+    "type": {
+      "value": "primary"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1ec4f786-541c-43f8-a65b-b3169ff9bccc",
+      "type": "desktop",
+      "top": 20,
+      "left": 28,
+      "width": 2,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "a092dd3a-dec5-4ee3-aeaa-46bac540bf03",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3a671cf4-45b7-4b37-acbb-586a2759a1bf",
+      "type": "mobile",
+      "top": 20,
+      "left": 28,
+      "width": 6,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "a092dd3a-dec5-4ee3-aeaa-46bac540bf03",
+      "dimensionUnit": "count"
+    }
+  ]
+}
