@@ -20,15 +20,14 @@
   },
   "showViewerNavigation": true,
   "homePageId": "bec8b638-8946-4f01-8016-14ec0f056ef3",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "0d24e63f-b5fe-4e66-8494-09b2a321fc62",
   "promotedFrom": null,
-  "status": "PUBLISHED",
-  "description": "",
+  "status": "DRAFT",
+  "description": null,
   "publishedAt": null,
   "releasedAt": null,
   "isStub": false,
-  "gitTreeSha": null,
   "sourceTag": null,
-  "isSynced": false
+  "isSynced": true
 }
