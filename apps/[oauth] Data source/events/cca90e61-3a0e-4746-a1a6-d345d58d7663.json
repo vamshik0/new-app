@@ -1,0 +1,14 @@
+{
+  "id": "cca90e61-3a0e-4746-a1a6-d345d58d7663",
+  "name": "Event #1",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "products",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "2f038114-864a-491f-a82c-6834bebc8b8a",
+  "target": "data_query",
+  "appVersionId": "dd171cbf-6bc0-4e2e-bd49-9cc35d63a1ce"
+}
