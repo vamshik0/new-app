@@ -18,24 +18,28 @@
     "production": {
       "allow_dynamic_connection_parameters": false,
       "connection_type": "manual",
-      "host": "localhost",
+      "database": "sample_db",
+      "host": "9.234.17.31",
       "port": 5432,
       "ssh_auth_type": "private_key",
       "ssh_enabled": "disabled",
       "ssh_port": 22,
       "ssl_certificate": "none",
-      "ssl_enabled": true
+      "ssl_enabled": false,
+      "username": "postgres"
     },
     "staging": {
       "allow_dynamic_connection_parameters": false,
       "connection_type": "manual",
-      "host": "localhost",
+      "database": "sample_db",
+      "host": "9.234.17.31",
       "port": 5432,
       "ssh_auth_type": "private_key",
       "ssh_enabled": "disabled",
       "ssh_port": 22,
       "ssl_certificate": "none",
-      "ssl_enabled": true
+      "ssl_enabled": false,
+      "username": "postgres"
     }
   },
   "type": "default"
