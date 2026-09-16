@@ -1,7 +1,6 @@
 {
   "id": "4afe6508-5784-4bfe-a4f7-35a92e10ccf6",
   "kind": "mssql",
-  "name": "mssql",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": false,

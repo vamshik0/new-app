@@ -1,0 +1,13 @@
+{
+  "id": "98e8af0e-0e6d-4c98-84b4-9810d2d4d722",
+  "name": "DL workspace",
+  "type": "front-end",
+  "slug": "ae335c39-95bc-4e13-b218-c0f9980bbac7",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "shield",
+  "tooljetVersion": "3.21.36-beta-ee"
+}

@@ -1,7 +1,6 @@
 {
   "id": "78c6c712-fd2f-4999-96a6-d0c88f625d18",
   "kind": "grpcv2",
-  "name": "grpcv2",
   "options": {
     "development": {
       "access_token_url": "",

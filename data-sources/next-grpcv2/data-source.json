@@ -1,7 +1,6 @@
 {
   "id": "c924342e-e12e-4783-b601-45b443c9a59b",
   "kind": "grpcv2",
-  "name": "next-grpcv2",
   "options": {
     "development": {
       "access_token_url": "",

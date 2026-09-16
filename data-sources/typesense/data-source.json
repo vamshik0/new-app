@@ -1,7 +1,6 @@
 {
   "id": "0d1dcc8a-400c-4d94-bfd0-eb3e81ee7476",
   "kind": "typesense",
-  "name": "typesense",
   "options": {
     "development": {
       "host": "localhost",
