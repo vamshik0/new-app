@@ -1,7 +1,6 @@
 {
   "id": "b6f0eda8-7916-46c8-a9c9-e7d226f99b59",
   "kind": "postgresql",
-  "name": "postgresql",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": false,

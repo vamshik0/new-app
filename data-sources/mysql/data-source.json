@@ -1,7 +1,6 @@
 {
   "id": "0fc17e33-ec8c-4d3b-9276-bf5d5bcd2b68",
   "kind": "mysql",
-  "name": "mysql",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": false,

@@ -1,7 +1,6 @@
 {
   "id": "e6c2657d-9efe-4eaf-afa3-92d32a00a29c",
   "kind": "snowflake",
-  "name": "Snowflake DS",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": false,

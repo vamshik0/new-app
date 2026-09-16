@@ -1,7 +1,6 @@
 {
   "id": "778b6d63-28fb-42e9-a7dc-695020cad3c2",
   "kind": "influxdb",
-  "name": "influxdb",
   "options": {
     "development": {
       "host": "",

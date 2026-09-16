@@ -1,7 +1,6 @@
 {
   "id": "d063bddb-efd6-4eba-9e97-c222dd04f337",
   "kind": "restapi",
-  "name": "IMP-restapi",
   "options": {
     "development": {
       "access_token_custom_headers": [

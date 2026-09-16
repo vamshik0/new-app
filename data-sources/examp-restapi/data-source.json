@@ -1,7 +1,6 @@
 {
   "id": "3ebeb90b-bb2f-436e-af7a-320d895865a4",
   "kind": "restapi",
-  "name": "examp-restapi",
   "options": {
     "development": {
       "access_token_custom_headers": [

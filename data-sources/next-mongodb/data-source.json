@@ -1,7 +1,6 @@
 {
   "id": "19ec3403-e32f-4647-8d0e-f2f94148a212",
   "kind": "mongodb",
-  "name": "next-mongodb",
   "options": {
     "development": {
       "connection_format": "mongodb",

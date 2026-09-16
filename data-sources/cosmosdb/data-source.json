@@ -1,7 +1,6 @@
 {
   "id": "ca19f961-541a-4756-a743-57a913fdc1e2",
   "kind": "cosmosdb",
-  "name": "cosmosdb",
   "options": {
     "development": {
       "endpoint": ""
