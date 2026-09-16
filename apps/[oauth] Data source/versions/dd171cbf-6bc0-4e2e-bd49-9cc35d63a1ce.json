@@ -13,7 +13,7 @@
   "pageSettings": {},
   "showViewerNavigation": true,
   "homePageId": "828ac870-c6bc-4cf1-a9d4-c373e3ea86da",
-  "versionType": "branch",
+  "versionType": "version",
   "appId": "6b13fd7c-bd36-4a0e-9377-85b5677605e1",
   "promotedFrom": null,
   "status": "DRAFT",
@@ -22,5 +22,5 @@
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "isSynced": false
+  "isSynced": true
 }
