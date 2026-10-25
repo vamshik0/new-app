@@ -1,0 +1,102 @@
+{
+  "id": "cfef950b-3ecb-4e3c-9c82-6e9cffade8db",
+  "name": "text1",
+  "type": "Text",
+  "pageId": "2d6fe23f-34a3-4e32-baf1-355204598be0",
+  "parent": "df236fda-a57e-4c9f-a0f8-8a5f103c7ccd",
+  "properties": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "{{cardData.title}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textSize": {
+      "value": 16
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textFormat": {
+      "value": "html"
+    },
+    "dynamicHeight": {
+      "value": "{{false}}"
+    },
+    "text": {
+      "value": "{{cardData.title}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textSize": {
+      "value": 16
+    },
+    "textColor": {
+      "value": "var(--cc-primary-text)"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8aa190e7-471a-4c59-b01e-852b09e8865f",
+      "type": "desktop",
+      "top": 20,
+      "left": 4,
+      "width": 13.953488372093023,
+      "height": 30,
+      "componentId": "cfef950b-3ecb-4e3c-9c82-6e9cffade8db",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "1daba608-fcc8-4969-b616-7c6272cee66f",
+      "type": "mobile",
+      "top": 20,
+      "left": 4,
+      "width": 13.953488372093023,
+      "height": 30,
+      "componentId": "cfef950b-3ecb-4e3c-9c82-6e9cffade8db",
+      "dimensionUnit": "count"
+    }
+  ]
+}

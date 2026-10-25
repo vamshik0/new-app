@@ -1,7 +1,6 @@
 {
   "id": "0107400f-283c-4192-8c34-a97b0d235be7",
   "kind": "s3",
-  "name": "s3",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": true,

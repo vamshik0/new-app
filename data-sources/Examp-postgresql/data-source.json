@@ -1,7 +1,6 @@
 {
   "id": "c6e992c6-eae7-44e0-aad3-41d40be2f2b4",
   "kind": "postgresql",
-  "name": "Examp-postgresql",
   "options": {
     "development": {
       "allow_dynamic_connection_parameters": false,

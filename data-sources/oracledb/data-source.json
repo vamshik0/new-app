@@ -1,7 +1,6 @@
 {
   "id": "fcc8568b-2bf5-47fc-9c0c-8e448274319b",
   "kind": "oracledb",
-  "name": "oracledb",
   "options": {
     "development": {
       "client_path_type": "default",

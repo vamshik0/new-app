@@ -1,7 +1,6 @@
 {
   "id": "1d969caf-eb25-47b3-afdd-f3cc6350c218",
   "kind": "saphana",
-  "name": "saphana",
   "options": {
     "development": {
       "database": "",
