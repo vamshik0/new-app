@@ -1,0 +1,11 @@
+{
+  "id": "48688941-3851-41c7-bee0-640f7d1d7bdd",
+  "kind": "gcs",
+  "name": "gcs_2",
+  "options": {
+    "development": {},
+    "production": {},
+    "staging": {}
+  },
+  "type": "default"
+}
