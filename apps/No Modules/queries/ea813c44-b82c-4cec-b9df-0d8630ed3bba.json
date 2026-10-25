@@ -1,0 +1,12 @@
+{
+  "id": "ea813c44-b82c-4cec-b9df-0d8630ed3bba",
+  "name": "dynamodb1",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false
+  },
+  "dataSourceId": "05b35935-0622-4b36-bf25-80ef6e3c36d6",
+  "appVersionId": "30c54aec-cd58-4140-a25b-39cb46ede4cd",
+  "kind": "dynamodb",
+  "dataSourceType": "default"
+}
