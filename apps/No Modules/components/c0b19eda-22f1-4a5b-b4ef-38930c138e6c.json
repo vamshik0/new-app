@@ -1,12 +1,12 @@
 {
-  "id": "50b96a61-6601-4b10-84d2-c44f1b3f4630",
+  "id": "c0b19eda-22f1-4a5b-b4ef-38930c138e6c",
   "name": "button1",
   "type": "Button",
-  "pageId": "c6a5ed04-277f-449a-9551-3063861f4bc6",
-  "parent": "78a10c9c-4f20-49ef-b6a5-150e945e45b0",
+  "pageId": "d191480a-3f1f-432f-a618-a629d1d15edd",
+  "parent": null,
   "properties": {
     "text": {
-      "value": "new-module-1"
+      "value": "same name - different case"
     },
     "visibility": {
       "value": "{{true}}"
@@ -22,6 +22,9 @@
     },
     "tooltip": {
       "value": ""
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
   "general": {},
@@ -33,7 +36,7 @@
       "value": "normal"
     },
     "textColor": {
-      "value": "#FFFFFF"
+      "value": "var(--cc-surface1-surface)"
     },
     "borderColor": {
       "value": "var(--cc-primary-brand)"
@@ -57,7 +60,7 @@
       "value": "var(--cc-primary-brand)"
     },
     "iconColor": {
-      "value": "var(--cc-default-icon)"
+      "value": "var(--cc-surface1-surface)"
     },
     "direction": {
       "value": "left"
@@ -90,23 +93,27 @@
   "validation": {},
   "layouts": [
     {
-      "id": "5de7c819-3b2f-4784-b1ee-d38fce10455f",
+      "id": "5c3788f9-3b17-4c1f-83bb-608088316a34",
       "type": "desktop",
-      "top": 60,
-      "left": 6,
-      "width": 16,
+      "top": 110,
+      "left": 1,
+      "width": 4,
       "height": 40,
-      "componentId": "50b96a61-6601-4b10-84d2-c44f1b3f4630",
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c0b19eda-22f1-4a5b-b4ef-38930c138e6c",
       "dimensionUnit": "count"
     },
     {
-      "id": "2701c551-39c6-4838-9c9a-177afa95a850",
+      "id": "e9373078-2b42-47c2-972c-2d7b62514dad",
       "type": "mobile",
-      "top": 60,
-      "left": 6,
-      "width": 16,
+      "top": 110,
+      "left": 1,
+      "width": 4,
       "height": 40,
-      "componentId": "50b96a61-6601-4b10-84d2-c44f1b3f4630",
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c0b19eda-22f1-4a5b-b4ef-38930c138e6c",
       "dimensionUnit": "count"
     }
   ]
