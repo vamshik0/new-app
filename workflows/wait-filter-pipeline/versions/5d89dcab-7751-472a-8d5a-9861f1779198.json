@@ -1,0 +1,231 @@
+{
+  "id": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": -134,
+          "y": 249
+        },
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 41,
+        "selected": false,
+        "positionAbsolute": {
+          "x": -134,
+          "y": 249
+        }
+      },
+      {
+        "id": "n-fetch",
+        "type": "query",
+        "position": {
+          "x": 300,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "idOnDefinition": "60c5bc2d-4416-4e55-a4ee-efc769e11c2f",
+          "kind": "restapi",
+          "options": {},
+          "errorHandler": true
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "n-filter",
+        "type": "filter",
+        "position": {
+          "x": 550,
+          "y": 200
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "label": "Filter",
+          "nodeName": "recentPosts",
+          "nodeType": "filter",
+          "inputExpression": "fetchPosts.data",
+          "predicateExpression": "value.id >= (startTrigger.params.minId ?? 5)"
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "n-wait",
+        "type": "wait",
+        "position": {
+          "x": 800,
+          "y": 200
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "nodeType": "wait",
+          "label": "Wait",
+          "nodeName": "throttle",
+          "durationSeconds": 300
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "n-resp",
+        "type": "output",
+        "position": {
+          "x": 1050,
+          "y": 200
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respPosts",
+          "nodeType": "response",
+          "code": "return { count: recentPosts.data.length, ids: recentPosts.data.map((p) => p.id) };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "n-resp-err",
+        "type": "output",
+        "position": {
+          "x": 550,
+          "y": 380
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respFetchFailed",
+          "nodeType": "response",
+          "code": "return { error: 'fetch failed' };",
+          "statusCode": {
+            "value": "502",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-n-fetch",
+        "source": "start",
+        "target": "n-fetch",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "n-fetch-success-n-filter",
+        "source": "n-fetch",
+        "target": "n-filter",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-fetch-failure-n-resp-err",
+        "source": "n-fetch",
+        "target": "n-resp-err",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "n-filter-success-n-wait",
+        "source": "n-filter",
+        "target": "n-wait",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-wait-out-n-resp",
+        "source": "n-wait",
+        "target": "n-resp",
+        "sourceHandle": null,
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "60c5bc2d-4416-4e55-a4ee-efc769e11c2f",
+        "id": "614a2b29-1c3b-4174-bdf7-02cbd5450288"
+      }
+    ],
+    "webhookParams": [
+      {
+        "key": "limit",
+        "dataType": "number"
+      },
+      {
+        "key": "minId",
+        "dataType": "number"
+      }
+    ],
+    "defaultParams": "{\"limit\":20,\"minId\":5}",
+    "workflowInputs": [],
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "bebd7ed2-e88e-4eea-b09f-51676de5636c",
+  "versionType": "version",
+  "appId": "0a1baa34-ea28-43f4-9945-ab9f4f37424c",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": true,
+  "isSynced": false
+}
