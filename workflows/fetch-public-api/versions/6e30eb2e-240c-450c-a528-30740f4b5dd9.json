@@ -1,0 +1,208 @@
+{
+  "id": "6e30eb2e-240c-450c-a528-30740f4b5dd9",
+  "definition": {
+    "nodes": [
+      {
+        "id": "b5a750c4-825d-474d-804d-23b7bd50e7ab",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "width": 206,
+        "height": 41
+      },
+      {
+        "id": "d2f8c256-d654-41a2-8fe0-1e4efcd0c3f6",
+        "type": "output",
+        "data": {
+          "label": "response",
+          "nodeType": "response",
+          "code": "return pickFields_v2.data;",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 940,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "a0177b79-d065-4bac-ba88-a80fe2ed5fc9",
+        "type": "output",
+        "data": {
+          "label": "fail",
+          "nodeType": "response",
+          "code": "return { environment: constants.env, error: 'Company API request failed' };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "502"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 660,
+          "y": 420
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "list",
+          "nodeType": "query",
+          "idOnDefinition": "e7210558-0736-40d3-843b-adf298585f45",
+          "errorHandler": true
+        },
+        "position": {
+          "x": 380,
+          "y": 250
+        }
+      },
+      {
+        "id": "9bad534c-e38e-46ec-bb22-9c49db332930",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "pick",
+          "nodeType": "query",
+          "idOnDefinition": "4d864032-ee1b-4b48-a8f6-3b79e359da71"
+        },
+        "position": {
+          "x": 660,
+          "y": 250
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "7167f5ed-2162-409d-b050-ebd360abcf7a",
+        "source": "b5a750c4-825d-474d-804d-23b7bd50e7ab",
+        "target": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "957c052a-f118-4d8e-b774-65afe731507f",
+        "source": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "target": "9bad534c-e38e-46ec-bb22-9c49db332930",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "a0b1ca4e-bb49-456f-938e-ccf62e999f1d",
+        "source": "bae74a2a-9b1f-4ba4-ab87-48f3c53971f5",
+        "target": "a0177b79-d065-4bac-ba88-a80fe2ed5fc9",
+        "sourceHandle": "failure",
+        "type": "custom"
+      },
+      {
+        "id": "6fdd1178-f2c8-4b56-9ba1-b1963037496a",
+        "source": "9bad534c-e38e-46ec-bb22-9c49db332930",
+        "target": "d2f8c256-d654-41a2-8fe0-1e4efcd0c3f6",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "e7210558-0736-40d3-843b-adf298585f45",
+        "id": "aa909a44-4de9-4fa9-a987-640c0c6f60d0"
+      },
+      {
+        "idOnDefinition": "4d864032-ee1b-4b48-a8f6-3b79e359da71",
+        "id": "b33568f1-dbe7-48f8-9ad5-105dcf8fc70f"
+      }
+    ],
+    "webhookParams": [
+      {
+        "key": "country",
+        "dataType": "string"
+      },
+      {
+        "key": "userId",
+        "dataType": "number"
+      }
+    ],
+    "defaultParams": "{\"userId\":2,\"country\":\"India\"}",
+    "workflowInputs": [
+      {
+        "key": "country",
+        "type": "string",
+        "required": false,
+        "defaultValue": "India"
+      },
+      {
+        "key": "userId",
+        "type": "number",
+        "required": true,
+        "defaultValue": 2
+      }
+    ],
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "0d3e5073-66f4-4963-94b8-1d13d57935c8",
+  "versionType": "version",
+  "appId": "f8dcbbf1-77e0-4967-864b-e037a1479e45",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}
