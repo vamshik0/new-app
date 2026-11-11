@@ -1,0 +1,123 @@
+{
+  "id": "66458f72-9417-416a-b18b-f2371d3969a5",
+  "definition": {
+    "nodes": [
+      {
+        "id": "b3be3b43-5532-45d1-8dab-035e51b8d7fc",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "type": "input",
+        "sourcePosition": "right",
+        "deletable": false,
+        "selected": false
+      },
+      {
+        "id": "74de6cef-056a-4cfa-92ce-7a806178ebd5",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "// Use this section to define the expected API response\n\nreturn runjs1.data",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response1"
+        },
+        "position": {
+          "x": 852,
+          "y": 402
+        },
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "selected": false
+      },
+      {
+        "id": "e09b0e80-3d19-49a7-a273-fb15e01deaf8",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "a11484aa-8d0a-4b4f-a2ee-6748ec7d6b10",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 476,
+          "y": 135
+        },
+        "deletable": false,
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "0937e13e-317d-45d4-9129-ba261c897fe8",
+        "source": "b3be3b43-5532-45d1-8dab-035e51b8d7fc",
+        "target": "e09b0e80-3d19-49a7-a273-fb15e01deaf8",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "type": "custom"
+      },
+      {
+        "type": "custom",
+        "source": "e09b0e80-3d19-49a7-a273-fb15e01deaf8",
+        "sourceHandle": "success",
+        "target": "74de6cef-056a-4cfa-92ce-7a806178ebd5",
+        "targetHandle": null,
+        "id": "reactflow__edge-e09b0e80-3d19-49a7-a273-fb15e01deaf8success-74de6cef-056a-4cfa-92ce-7a806178ebd5"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "a11484aa-8d0a-4b4f-a2ee-6748ec7d6b10",
+        "id": "94f0cc8f-cfcb-469d-b930-6fac23ab12c8"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "e4788373-8889-455d-a467-dc9445c61b22",
+  "versionType": "version",
+  "appId": "ffb61dca-3be1-4304-af67-abf6df1ddcc4",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": null,
+  "isSynced": false
+}
