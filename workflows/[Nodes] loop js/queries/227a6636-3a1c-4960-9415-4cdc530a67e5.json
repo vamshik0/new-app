@@ -1,0 +1,11 @@
+{
+  "id": "227a6636-3a1c-4960-9415-4cdc530a67e5",
+  "name": "buildItems",
+  "options": {
+    "code": "const words = Array.isArray(startTrigger.params.words) && startTrigger.params.words.length ? startTrigger.params.words : ['alpha', 'beta', 'gamma'];\nreturn words.map((w, i) => ({ word: String(w), position: i + 1 }));"
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "90b7a924-a107-4791-b0c2-6aa60252396c",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
