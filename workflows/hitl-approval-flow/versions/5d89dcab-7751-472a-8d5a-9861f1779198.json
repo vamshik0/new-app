@@ -1,0 +1,384 @@
+{
+  "id": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": -21,
+          "y": 248
+        },
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 41,
+        "selected": false,
+        "positionAbsolute": {
+          "x": -21,
+          "y": 248
+        }
+      },
+      {
+        "id": "n-prep",
+        "type": "query",
+        "position": {
+          "x": 300,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "idOnDefinition": "4305c3fd-fef1-4223-88fe-a879b4835a24",
+          "kind": "runjs",
+          "options": {}
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "n-human",
+        "type": "human",
+        "position": {
+          "x": 550,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "nodeType": "human",
+          "label": "Human",
+          "nodeName": "financeApproval",
+          "approvers": {
+            "users": [
+              "0fddc01d-7ff2-44df-92e9-8e9771fea267"
+            ],
+            "groups": [
+              "4a57aec4-d8b8-45f4-a5db-68ce6fc405c4"
+            ],
+            "dynamic": "{{ [startTrigger.params.approverEmail].filter(Boolean) }}",
+            "tokenBypass": false
+          },
+          "outcomes": [
+            {
+              "key": "approved",
+              "label": "Approve",
+              "color": "#1E823B"
+            },
+            {
+              "key": "rejected",
+              "label": "Reject",
+              "color": "#D72D39"
+            },
+            {
+              "key": "needs_info",
+              "label": "Needs info",
+              "color": "#BF4F03"
+            }
+          ],
+          "inputSchema": [
+            {
+              "name": "comment",
+              "type": "text",
+              "label": "Comment",
+              "required": true,
+              "default": ""
+            },
+            {
+              "name": "approvedAmount",
+              "type": "number",
+              "label": "Approved amount",
+              "required": false,
+              "default": ""
+            },
+            {
+              "name": "costCenter",
+              "type": "select",
+              "label": "Cost center",
+              "required": false,
+              "default": "ops",
+              "options": [
+                "ops",
+                "sales",
+                "eng"
+              ]
+            }
+          ],
+          "timeout": {
+            "enabled": true,
+            "durationSeconds": 172800,
+            "onExpire": "branch",
+            "timeoutOutcome": "rejected"
+          },
+          "reminders": [
+            {
+              "id": "37f3b9fa-b8fe-47c0-807c-132c9865aafc",
+              "afterSeconds": 3600
+            },
+            {
+              "id": "e7e94023-7152-460e-aff3-b23781db3f89",
+              "afterSeconds": 86400
+            }
+          ],
+          "notification": {
+            "url": "https://example.com/hooks/approval",
+            "method": "POST",
+            "headers": {
+              "X-Source": "tooljet-workflow"
+            },
+            "bodyTemplate": "{\"customer\": \"{{prepRequest.data.customer}}\", \"amount\": {{prepRequest.data.amount}}}",
+            "includeResolveUrl": true
+          },
+          "description": "Finance approval for {{prepRequest.data.customer}}"
+        },
+        "width": 206,
+        "height": 40,
+        "selected": true
+      },
+      {
+        "id": "n-if",
+        "type": "if-condition",
+        "position": {
+          "x": 800,
+          "y": 150
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "label": "If condition",
+          "nodeName": "largeAmount",
+          "code": "prepRequest.data.amount > 5000",
+          "conditions": [
+            {
+              "id": "true",
+              "code": "prepRequest.data.amount > 5000",
+              "label": "If"
+            }
+          ],
+          "elseBranch": {
+            "label": "Else",
+            "enabled": true
+          }
+        },
+        "width": 206,
+        "height": 50
+      },
+      {
+        "id": "n-resp-large",
+        "type": "output",
+        "position": {
+          "x": 1050,
+          "y": 80
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respLargeApproved",
+          "nodeType": "response",
+          "code": "return { decision: 'approved', tier: 'large', amount: prepRequest.data.amount };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "n-resp-normal",
+        "type": "output",
+        "position": {
+          "x": 1050,
+          "y": 200
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respApproved",
+          "nodeType": "response",
+          "code": "return { decision: 'approved', tier: 'normal', amount: prepRequest.data.amount };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "n-resp-rej",
+        "type": "output",
+        "position": {
+          "x": 800,
+          "y": 320
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respRejected",
+          "nodeType": "response",
+          "code": "return { decision: 'rejected' };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "n-resp-info",
+        "type": "output",
+        "position": {
+          "x": 800,
+          "y": 440
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respNeedsInfo",
+          "nodeType": "response",
+          "code": "return { decision: 'needs_info' };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-n-prep",
+        "source": "start",
+        "target": "n-prep",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "n-prep-success-n-human",
+        "source": "n-prep",
+        "target": "n-human",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-human-approved-n-if",
+        "source": "n-human",
+        "target": "n-if",
+        "sourceHandle": "approved",
+        "type": "custom"
+      },
+      {
+        "id": "n-human-rejected-n-resp-rej",
+        "source": "n-human",
+        "target": "n-resp-rej",
+        "sourceHandle": "rejected",
+        "type": "custom"
+      },
+      {
+        "id": "n-human-needs_info-n-resp-info",
+        "source": "n-human",
+        "target": "n-resp-info",
+        "sourceHandle": "needs_info",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-true-n-resp-large",
+        "source": "n-if",
+        "target": "n-resp-large",
+        "sourceHandle": "true",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-false-n-resp-normal",
+        "source": "n-if",
+        "target": "n-resp-normal",
+        "sourceHandle": "false",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "4305c3fd-fef1-4223-88fe-a879b4835a24",
+        "id": "d600646c-ddfd-4aca-b2e5-6b64f518e57e"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "workflowInputs": [
+      {
+        "key": "amount",
+        "type": "number",
+        "required": true,
+        "defaultValue": 1000
+      },
+      {
+        "key": "customer",
+        "type": "string",
+        "required": false,
+        "defaultValue": "customer-1"
+      },
+      {
+        "key": "approverEmail",
+        "type": "string",
+        "required": false,
+        "defaultValue": ""
+      }
+    ],
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "d19c05c6-abe0-47ae-8f45-94137ac65a7e",
+  "versionType": "version",
+  "appId": "a72b30b3-a342-4103-90d4-f99cd2fb2ca5",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}
