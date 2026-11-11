@@ -1,0 +1,242 @@
+{
+  "id": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": -78,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 41,
+        "selected": false,
+        "positionAbsolute": {
+          "x": -78,
+          "y": 250
+        }
+      },
+      {
+        "id": "n-digest",
+        "type": "query",
+        "position": {
+          "x": 225,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "idOnDefinition": "9c850496-6d0c-4a68-bbcf-a7bfd18b8439",
+          "kind": "runjs",
+          "options": {}
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 225,
+          "y": 250
+        }
+      },
+      {
+        "id": "n-if",
+        "type": "if-condition",
+        "position": {
+          "x": 550,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "label": "If condition",
+          "nodeName": "severityRoute",
+          "code": "buildDigest.data.severity === 'critical'",
+          "conditions": [
+            {
+              "id": "true",
+              "code": "buildDigest.data.severity === 'critical'",
+              "label": "If"
+            },
+            {
+              "id": "else-if-1",
+              "code": "buildDigest.data.severity === 'warning'",
+              "label": "Else if 1"
+            }
+          ],
+          "elseBranch": {
+            "label": "Else",
+            "enabled": true
+          }
+        },
+        "width": 206,
+        "height": 70,
+        "selected": false
+      },
+      {
+        "id": "n-crit",
+        "type": "output",
+        "position": {
+          "x": 800,
+          "y": 120
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respCritical",
+          "nodeType": "response",
+          "code": "return { severity: 'critical', failed: buildDigest.data.failed };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "n-warn",
+        "type": "output",
+        "position": {
+          "x": 800,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respWarning",
+          "nodeType": "response",
+          "code": "return { severity: 'warning', failed: buildDigest.data.failed };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "n-ok",
+        "type": "output",
+        "position": {
+          "x": 800,
+          "y": 380
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respOk",
+          "nodeType": "response",
+          "code": "return { severity: 'ok' };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-n-digest",
+        "source": "start",
+        "target": "n-digest",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "n-digest-success-n-if",
+        "source": "n-digest",
+        "target": "n-if",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-true-n-crit",
+        "source": "n-if",
+        "target": "n-crit",
+        "sourceHandle": "true",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-else-if-1-n-warn",
+        "source": "n-if",
+        "target": "n-warn",
+        "sourceHandle": "else-if-1",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-false-n-ok",
+        "source": "n-if",
+        "target": "n-ok",
+        "sourceHandle": "false",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "9c850496-6d0c-4a68-bbcf-a7bfd18b8439",
+        "id": "64a13349-e05b-4307-9551-75820872acfa"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "workflowInputs": [],
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "e271996f-9fa2-410f-905c-516259b09382",
+  "versionType": "version",
+  "appId": "0e4a7247-0daf-43ff-9fbb-1b10a9843599",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}
