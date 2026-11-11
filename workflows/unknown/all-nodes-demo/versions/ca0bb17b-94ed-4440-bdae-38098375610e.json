@@ -1,0 +1,411 @@
+{
+  "id": "ca0bb17b-94ed-4440-bdae-38098375610e",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "deletable": false
+      },
+      {
+        "id": "n-build",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "eb1620a6-b517-493c-beab-a0642e166317",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 300,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "n-filter",
+        "type": "filter",
+        "position": {
+          "x": 550,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Filter",
+          "nodeName": "bigItems",
+          "nodeType": "filter",
+          "inputExpression": "buildOrder.data.items",
+          "predicateExpression": "value > 5"
+        }
+      },
+      {
+        "id": "n-if",
+        "type": "if-condition",
+        "position": {
+          "x": 800,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "If condition",
+          "nodeName": "routeByAmount",
+          "code": "buildOrder.data.amount >= 500",
+          "conditions": [
+            {
+              "id": "true",
+              "code": "buildOrder.data.amount >= 500",
+              "label": "If"
+            },
+            {
+              "id": "else-if-1",
+              "code": "buildOrder.data.amount >= 100",
+              "label": "Else if 1"
+            }
+          ],
+          "elseBranch": {
+            "label": "Else",
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "n-high",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "8e8c626f-4344-475e-bc07-a76d471bc13c",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 1050,
+          "y": 100
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "n-wait",
+        "type": "wait",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "position": {
+          "x": 1050,
+          "y": 250
+        },
+        "data": {
+          "nodeType": "wait",
+          "label": "Wait",
+          "nodeName": "coolOff",
+          "durationSeconds": 5
+        }
+      },
+      {
+        "id": "n-human",
+        "type": "human",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "position": {
+          "x": 1300,
+          "y": 250
+        },
+        "data": {
+          "nodeType": "human",
+          "label": "Human",
+          "nodeName": "managerApproval",
+          "approvers": {
+            "users": [
+              "0fddc01d-7ff2-44df-92e9-8e9771fea267"
+            ],
+            "groups": [],
+            "dynamic": "",
+            "tokenBypass": true
+          },
+          "outcomes": [
+            {
+              "key": "approved",
+              "label": "Approve",
+              "color": "#1E823B"
+            },
+            {
+              "key": "rejected",
+              "label": "Reject",
+              "color": "#D72D39"
+            }
+          ],
+          "inputSchema": [],
+          "timeout": {
+            "enabled": false,
+            "durationSeconds": 86400,
+            "onExpire": "fail",
+            "timeoutOutcome": "",
+            "reminders": []
+          },
+          "notification": {
+            "url": "",
+            "method": "POST",
+            "headers": {},
+            "bodyTemplate": "",
+            "includeResolveUrl": true
+          },
+          "description": "Approve mid-size order"
+        }
+      },
+      {
+        "id": "n-low",
+        "type": "query",
+        "data": {
+          "idOnDefinition": "12e9d724-c49c-4115-aebf-50214cbaad01",
+          "kind": "runjs",
+          "options": {}
+        },
+        "position": {
+          "x": 1050,
+          "y": 450
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "n-resp-high",
+        "type": "output",
+        "position": {
+          "x": 1300,
+          "y": 100
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respHigh",
+          "nodeType": "response",
+          "code": "return { route: highValue.data.route, bigItems: bigItems.data };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        }
+      },
+      {
+        "id": "n-resp-ok",
+        "type": "output",
+        "position": {
+          "x": 1550,
+          "y": 200
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respApproved",
+          "nodeType": "response",
+          "code": "return { route: 'mid', decision: 'approved', bigItems: bigItems.data, customer: buildOrder.data.customer, source: buildOrder.data.source };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        }
+      },
+      {
+        "id": "n-resp-no",
+        "type": "output",
+        "position": {
+          "x": 1550,
+          "y": 320
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respRejected",
+          "nodeType": "response",
+          "code": "return { route: 'mid', decision: 'rejected' };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        }
+      },
+      {
+        "id": "n-resp-low",
+        "type": "output",
+        "position": {
+          "x": 1300,
+          "y": 450
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respLow",
+          "nodeType": "response",
+          "code": "return { route: lowValue.data.route, bigItems: bigItems.data };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-n-build",
+        "source": "start",
+        "target": "n-build",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "n-build-success-n-filter",
+        "source": "n-build",
+        "target": "n-filter",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-filter-success-n-if",
+        "source": "n-filter",
+        "target": "n-if",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-true-n-high",
+        "source": "n-if",
+        "target": "n-high",
+        "sourceHandle": "true",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-else-if-1-n-wait",
+        "source": "n-if",
+        "target": "n-wait",
+        "sourceHandle": "else-if-1",
+        "type": "custom"
+      },
+      {
+        "id": "n-if-false-n-low",
+        "source": "n-if",
+        "target": "n-low",
+        "sourceHandle": "false",
+        "type": "custom"
+      },
+      {
+        "id": "n-high-success-n-resp-high",
+        "source": "n-high",
+        "target": "n-resp-high",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-wait-out-n-human",
+        "source": "n-wait",
+        "target": "n-human",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "n-human-approved-n-resp-ok",
+        "source": "n-human",
+        "target": "n-resp-ok",
+        "sourceHandle": "approved",
+        "type": "custom"
+      },
+      {
+        "id": "n-human-rejected-n-resp-no",
+        "source": "n-human",
+        "target": "n-resp-no",
+        "sourceHandle": "rejected",
+        "type": "custom"
+      },
+      {
+        "id": "n-low-success-n-resp-low",
+        "source": "n-low",
+        "target": "n-resp-low",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "12e9d724-c49c-4115-aebf-50214cbaad01",
+        "id": "12e9d724-c49c-4115-aebf-50214cbaad01"
+      },
+      {
+        "idOnDefinition": "8e8c626f-4344-475e-bc07-a76d471bc13c",
+        "id": "8e8c626f-4344-475e-bc07-a76d471bc13c"
+      },
+      {
+        "idOnDefinition": "eb1620a6-b517-493c-beab-a0642e166317",
+        "id": "eb1620a6-b517-493c-beab-a0642e166317"
+      }
+    ],
+    "webhookParams": [
+      {
+        "key": "source",
+        "dataType": "string"
+      }
+    ],
+    "defaultParams": "{\"source\":\"test-json\"}",
+    "workflowInputs": [
+      {
+        "key": "amount",
+        "type": "number",
+        "required": true,
+        "defaultValue": 250
+      },
+      {
+        "key": "customer",
+        "type": "string",
+        "required": false,
+        "defaultValue": "customer-1"
+      }
+    ],
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "3573d95f-23c2-4675-aeb7-c22c87ccd3fb",
+  "versionType": "version",
+  "appId": "32d7b4dd-b243-4b9a-a4a4-75e6f0a36d47",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": null,
+  "isSynced": false
+}

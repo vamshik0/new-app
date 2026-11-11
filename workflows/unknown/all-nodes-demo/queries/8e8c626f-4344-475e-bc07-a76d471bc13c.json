@@ -1,0 +1,12 @@
+{
+  "id": "8e8c626f-4344-475e-bc07-a76d471bc13c",
+  "name": "highValue",
+  "options": {
+    "code": "return { route: 'high', amount: buildOrder.data.amount };",
+    "parameters": []
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "ca0bb17b-94ed-4440-bdae-38098375610e",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
