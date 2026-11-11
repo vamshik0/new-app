@@ -1,0 +1,11 @@
+{
+  "id": "d3016aab-9bb8-4876-af4d-180e65a0215d",
+  "name": "highValue_v2",
+  "options": {
+    "code": "return { environment: constants.env, tier: 'high', amount: Number(startTrigger.params.amount), threshold: Number(startTrigger.params.threshold ?? 100), needsApproval: true };"
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "9d5eee3b-2e70-4220-9b14-83a55294c87c",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
