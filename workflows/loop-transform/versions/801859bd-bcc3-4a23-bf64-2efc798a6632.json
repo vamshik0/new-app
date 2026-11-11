@@ -1,0 +1,193 @@
+{
+  "id": "801859bd-bcc3-4a23-bf64-2efc798a6632",
+  "definition": {
+    "nodes": [
+      {
+        "id": "1a7a6341-20ab-48eb-8499-11844226e732",
+        "type": "input",
+        "data": {
+          "label": "start",
+          "nodeType": "start"
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "width": 206,
+        "height": 43,
+        "selected": false
+      },
+      {
+        "id": "2f2a63b1-1d85-490b-9f4c-08e99d434733",
+        "type": "output",
+        "data": {
+          "label": "response",
+          "nodeType": "response",
+          "code": "const rows = sizeCompanies_v2.data || [];\nconst bySize = rows.reduce((acc, r) => { acc[r.size] = (acc[r.size] || 0) + 1; return acc; }, {});\nreturn { environment: constants.env, count: rows.length, bySize, companies: rows, notSmall: largeCompanies.data };",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          }
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "position": {
+          "x": 1080,
+          "y": 250
+        },
+        "width": 206,
+        "height": 40,
+        "selected": false
+      },
+      {
+        "id": "bab6f8b2-1361-48d2-b53d-0491ed9a2ab9",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "list",
+          "nodeType": "query",
+          "idOnDefinition": "da71debc-e818-4ccd-99c8-f54fc93bf432"
+        },
+        "position": {
+          "x": 320,
+          "y": 250
+        },
+        "selected": false,
+        "width": 210,
+        "height": 40
+      },
+      {
+        "id": "bc04820c-267c-4290-b329-ee7324c678c0",
+        "type": "query",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "data": {
+          "label": "loop",
+          "nodeType": "query",
+          "looped": true,
+          "iterationValuesCode": "return Array.isArray(fetchCompanies_v2.data) ? fetchCompanies_v2.data : [];",
+          "idOnDefinition": "c0cc7120-a5df-4ff9-9fef-2c856803a18f"
+        },
+        "position": {
+          "x": 560,
+          "y": 250
+        },
+        "selected": false,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "9c7fb429-6f41-4fa2-a917-7befcf410456",
+        "type": "filter",
+        "position": {
+          "x": 820,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "label": "Filter",
+          "nodeName": "largeCompanies",
+          "nodeType": "filter",
+          "inputExpression": "sizeCompanies_v2.data",
+          "predicateExpression": "value.size !== 'small'"
+        },
+        "selected": false,
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "859cb4fe-567b-4c67-9715-7bc56ddd37f0",
+        "source": "1a7a6341-20ab-48eb-8499-11844226e732",
+        "target": "bab6f8b2-1361-48d2-b53d-0491ed9a2ab9",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "449ea017-453b-45df-8d3a-36ec71da1e17",
+        "source": "bab6f8b2-1361-48d2-b53d-0491ed9a2ab9",
+        "target": "bc04820c-267c-4290-b329-ee7324c678c0",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "bc04820c-267c-4290-b329-ee7324c678c0-success-9c7fb429-6f41-4fa2-a917-7befcf410456",
+        "source": "bc04820c-267c-4290-b329-ee7324c678c0",
+        "target": "9c7fb429-6f41-4fa2-a917-7befcf410456",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "9c7fb429-6f41-4fa2-a917-7befcf410456-success-2f2a63b1-1d85-490b-9f4c-08e99d434733",
+        "source": "9c7fb429-6f41-4fa2-a917-7befcf410456",
+        "target": "2f2a63b1-1d85-490b-9f4c-08e99d434733",
+        "sourceHandle": "success",
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "c0cc7120-a5df-4ff9-9fef-2c856803a18f",
+        "id": "de9c0e56-8473-43ff-9b48-2da7bec67b72"
+      },
+      {
+        "idOnDefinition": "da71debc-e818-4ccd-99c8-f54fc93bf432",
+        "id": "c9de21f6-281f-4021-84eb-7bce9b9d3a66"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "f47e1184-c05c-4a86-b7f7-4b0803072f0c",
+  "versionType": "version",
+  "appId": "ae75dfcd-3e51-4de5-9224-5e1b81630f01",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}

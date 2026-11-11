@@ -1,0 +1,11 @@
+{
+  "id": "28789304-00e8-4721-be42-109af7fb9d83",
+  "name": "lowValue_v2",
+  "options": {
+    "code": "return { environment: constants.env, tier: 'low', amount: Number(startTrigger.params.amount), threshold: Number(startTrigger.params.threshold ?? 100), needsApproval: false };"
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "9d5eee3b-2e70-4220-9b14-83a55294c87c",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

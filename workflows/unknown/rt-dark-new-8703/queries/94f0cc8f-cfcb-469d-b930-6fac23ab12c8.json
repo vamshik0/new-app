@@ -1,0 +1,12 @@
+{
+  "id": "94f0cc8f-cfcb-469d-b930-6fac23ab12c8",
+  "name": "runjs1",
+  "options": {
+    "code": "return 'empty'",
+    "parameters": []
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "66458f72-9417-416a-b18b-f2371d3969a5",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

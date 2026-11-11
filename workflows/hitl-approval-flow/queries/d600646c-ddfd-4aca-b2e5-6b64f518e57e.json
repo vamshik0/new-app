@@ -1,0 +1,12 @@
+{
+  "id": "d600646c-ddfd-4aca-b2e5-6b64f518e57e",
+  "name": "prepRequest",
+  "options": {
+    "code": "return { amount: Number(startTrigger.params.amount), customer: startTrigger.params.customer ?? 'customer-1', requestedAt: new Date().toISOString() };",
+    "parameters": []
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

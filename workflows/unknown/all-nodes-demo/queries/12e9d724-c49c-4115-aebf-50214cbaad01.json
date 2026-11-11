@@ -1,0 +1,12 @@
+{
+  "id": "12e9d724-c49c-4115-aebf-50214cbaad01",
+  "name": "lowValue",
+  "options": {
+    "code": "return { route: 'low', amount: buildOrder.data.amount };",
+    "parameters": []
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "ca0bb17b-94ed-4440-bdae-38098375610e",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

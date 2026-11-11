@@ -1,0 +1,12 @@
+{
+  "id": "eb1620a6-b517-493c-beab-a0642e166317",
+  "name": "buildOrder",
+  "options": {
+    "code": "return { amount: startTrigger.params.amount, customer: startTrigger.params.customer, source: startTrigger.params.source ?? null, items: [3, 8, 12, 1, 20] };",
+    "parameters": []
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "ca0bb17b-94ed-4440-bdae-38098375610e",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

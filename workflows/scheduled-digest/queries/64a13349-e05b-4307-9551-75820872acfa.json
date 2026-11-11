@@ -1,0 +1,12 @@
+{
+  "id": "64a13349-e05b-4307-9551-75820872acfa",
+  "name": "buildDigest",
+  "options": {
+    "code": "const checks = [{ name: 'api', ok: true }, { name: 'queue', ok: Math.random() > 0.3 }, { name: 'db', ok: Math.random() > 0.1 }];\nconst failed = checks.filter((c) => !c.ok).length;\nreturn { checks, failed, severity: failed >= 2 ? 'critical' : failed === 1 ? 'warning' : 'ok' };",
+    "parameters": []
+  },
+  "dataSourceId": "8a62980a-5d4e-4182-a1ed-99acd571dcfc",
+  "appVersionId": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

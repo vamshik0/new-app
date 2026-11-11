@@ -1,0 +1,14 @@
+{
+  "id": "2234b7b9-60f1-4e7e-8e1d-16f80b79f520",
+  "name": "callApproval",
+  "options": {
+    "workflowId": "0e4a7247-0daf-43ff-9fbb-1b10a9843599",
+    "workflowVersionId": "__default_branch_draft__",
+    "syncExecution": true,
+    "params": []
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}
