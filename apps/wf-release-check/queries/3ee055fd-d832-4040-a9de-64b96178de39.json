@@ -1,0 +1,26 @@
+{
+  "id": "3ee055fd-d832-4040-a9de-64b96178de39",
+  "name": "new_hitl_approval",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "amount",
+        "value": "{{1000}}"
+      },
+      {
+        "key": "customer",
+        "value": "customer-1"
+      }
+    ],
+    "workflowId": "a72b30b3-a342-4103-90d4-f99cd2fb2ca5",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": false,
+    "syncExecution": true
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

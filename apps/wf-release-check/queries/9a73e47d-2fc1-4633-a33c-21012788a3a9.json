@@ -1,0 +1,26 @@
+{
+  "id": "9a73e47d-2fc1-4633-a33c-21012788a3a9",
+  "name": "old_fetch_public_api",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "userId",
+        "value": "{{2}}"
+      },
+      {
+        "key": "country",
+        "value": "India"
+      }
+    ],
+    "workflowId": "f8dcbbf1-77e0-4967-864b-e037a1479e45",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true,
+    "syncExecution": true
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

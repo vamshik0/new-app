@@ -1,0 +1,14 @@
+{
+  "id": "79eeac8e-cc21-4707-91ad-eda843e311d5",
+  "name": "new_wait_filter failed",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "new_wait_filter failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "2e7f1e2f-780b-40e7-a413-00ee6c26f35e",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

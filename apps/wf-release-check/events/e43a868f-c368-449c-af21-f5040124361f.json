@@ -1,0 +1,14 @@
+{
+  "id": "e43a868f-c368-449c-af21-f5040124361f",
+  "name": "Confirm new_hitl_approval",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "new_hitl_approval passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "3ee055fd-d832-4040-a9de-64b96178de39",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

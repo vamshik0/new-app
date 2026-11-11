@@ -1,0 +1,14 @@
+{
+  "id": "2ba13356-2580-4c6c-a838-462028af5113",
+  "name": "old_loop_js failed",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "old_loop_js failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "1dead427-caed-439c-a68b-b3ea4b38622b",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2e7f1e2f-780b-40e7-a413-00ee6c26f35e",
+  "name": "new_wait_filter",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "limit",
+        "value": "{{20}}"
+      },
+      {
+        "key": "minId",
+        "value": "{{5}}"
+      }
+    ],
+    "workflowId": "0a1baa34-ea28-43f4-9945-ab9f4f37424c",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": false,
+    "syncExecution": true
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

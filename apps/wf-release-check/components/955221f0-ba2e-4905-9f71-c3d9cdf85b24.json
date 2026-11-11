@@ -1,0 +1,57 @@
+{
+  "id": "955221f0-ba2e-4905-9f71-c3d9cdf85b24",
+  "name": "res_old_loop_js",
+  "type": "JSONExplorer",
+  "pageId": "3c638ed9-b23d-4bcb-b60e-69f6832eef06",
+  "parent": null,
+  "properties": {
+    "value": {
+      "value": "{{queries.old_loop_js.data}}",
+      "fxActive": true
+    },
+    "shouldExpandEntireJSON": {
+      "value": true
+    },
+    "loadingState": {
+      "value": "{{queries.old_loop_js.isLoading}}",
+      "fxActive": true
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "01bc19b9-4705-48e5-b184-fa7a572e866c",
+      "type": "desktop",
+      "top": 410,
+      "left": 13,
+      "width": 28,
+      "height": 300,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "955221f0-ba2e-4905-9f71-c3d9cdf85b24",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "310ede86-96f2-4b91-bc3f-2a3fe0f3d8bc",
+      "type": "mobile",
+      "top": 410,
+      "left": 13,
+      "width": 28,
+      "height": 300,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "955221f0-ba2e-4905-9f71-c3d9cdf85b24",
+      "dimensionUnit": "count"
+    }
+  ]
+}

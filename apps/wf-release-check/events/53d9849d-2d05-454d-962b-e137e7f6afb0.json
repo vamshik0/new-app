@@ -1,0 +1,14 @@
+{
+  "id": "53d9849d-2d05-454d-962b-e137e7f6afb0",
+  "name": "new_all_nodes failed",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "new_all_nodes failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "68d703a9-4451-43de-a2da-8067c525bff0",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

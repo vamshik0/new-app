@@ -1,0 +1,14 @@
+{
+  "id": "dc26c8d3-5840-4985-b9d8-788891969d18",
+  "name": "Confirm new_all_nodes",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "new_all_nodes passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "68d703a9-4451-43de-a2da-8067c525bff0",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

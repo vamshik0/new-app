@@ -1,0 +1,14 @@
+{
+  "id": "1b3af47e-8c3d-4d1f-8e19-237707e6e8ff",
+  "name": "new_hitl_approval failed",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "new_hitl_approval failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "3ee055fd-d832-4040-a9de-64b96178de39",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

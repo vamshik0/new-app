@@ -1,0 +1,26 @@
+{
+  "id": "68d703a9-4451-43de-a2da-8067c525bff0",
+  "name": "new_all_nodes",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "amount",
+        "value": "{{250}}"
+      },
+      {
+        "key": "customer",
+        "value": "customer-1"
+      }
+    ],
+    "workflowId": "32d7b4dd-b243-4b9a-a4a4-75e6f0a36d47",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": false,
+    "syncExecution": true
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}
