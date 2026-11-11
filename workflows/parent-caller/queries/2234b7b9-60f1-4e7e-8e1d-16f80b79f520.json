@@ -1,0 +1,23 @@
+{
+  "id": "2234b7b9-60f1-4e7e-8e1d-16f80b79f520",
+  "name": "callApproval",
+  "options": {
+    "workflowId": "a72b30b3-a342-4103-90d4-f99cd2fb2ca5",
+    "workflowVersionId": "__default_branch_draft__",
+    "syncExecution": true,
+    "params": [
+      {
+        "key": "amount",
+        "value": "{{startTrigger.params.amount}}"
+      },
+      {
+        "key": "customer",
+        "value": "parent-caller"
+      }
+    ]
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}

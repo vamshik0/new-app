@@ -1,0 +1,264 @@
+{
+  "id": "5d89dcab-7751-472a-8d5a-9861f1779198",
+  "definition": {
+    "nodes": [
+      {
+        "id": "start",
+        "type": "input",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": -13,
+          "y": 249
+        },
+        "sourcePosition": "right",
+        "deletable": false,
+        "selected": false,
+        "width": 206,
+        "height": 41,
+        "positionAbsolute": {
+          "x": -13,
+          "y": 249
+        }
+      },
+      {
+        "id": "n-call",
+        "type": "workflow",
+        "position": {
+          "x": 300,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "idOnDefinition": "3568308f-0fc1-4519-8f1f-7c7358125f60",
+          "kind": "workflows",
+          "options": {},
+          "nodeType": "workflow"
+        },
+        "selected": false,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "n-human",
+        "type": "human",
+        "position": {
+          "x": 550,
+          "y": 250
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "nodeType": "human",
+          "label": "Human",
+          "nodeName": "adminSignOff",
+          "approvers": {
+            "users": [],
+            "groups": [
+              "4a57aec4-d8b8-45f4-a5db-68ce6fc405c4",
+              "9b53a471-7fca-4433-9923-786d3bc86dd5"
+            ],
+            "dynamic": "",
+            "tokenBypass": false
+          },
+          "outcomes": [
+            {
+              "key": "approved",
+              "label": "Approve",
+              "color": "#1E823B"
+            },
+            {
+              "key": "rejected",
+              "label": "Reject",
+              "color": "#D72D39"
+            }
+          ],
+          "inputSchema": [],
+          "timeout": {
+            "enabled": false,
+            "durationSeconds": 86400,
+            "onExpire": "fail",
+            "timeoutOutcome": ""
+          },
+          "reminders": [],
+          "notification": {
+            "url": "",
+            "method": "POST",
+            "headers": {},
+            "bodyTemplate": "",
+            "includeResolveUrl": true
+          },
+          "description": "Admin sign-off after child approval"
+        },
+        "selected": false,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "n-wait",
+        "type": "wait",
+        "position": {
+          "x": 800,
+          "y": 180
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "nodeType": "wait",
+          "label": "Wait",
+          "nodeName": "holdPeriod",
+          "durationSeconds": 3600
+        },
+        "selected": false,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "n-done",
+        "type": "output",
+        "position": {
+          "x": 1050,
+          "y": 180
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respDone",
+          "nodeType": "response",
+          "code": "return { status: 'released', child: callApproval.data };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "selected": false,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "id": "n-rej",
+        "type": "output",
+        "position": {
+          "x": 800,
+          "y": 340
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "data": {
+          "label": "Response",
+          "nodeName": "respRejected",
+          "nodeType": "response",
+          "code": "return { status: 'blocked' };",
+          "statusCode": {
+            "value": "200",
+            "fxActive": false
+          }
+        },
+        "selected": false,
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "start-out-n-call",
+        "source": "start",
+        "target": "n-call",
+        "sourceHandle": null,
+        "type": "custom"
+      },
+      {
+        "id": "n-call-success-n-human",
+        "source": "n-call",
+        "target": "n-human",
+        "sourceHandle": "success",
+        "type": "custom"
+      },
+      {
+        "id": "n-human-approved-n-wait",
+        "source": "n-human",
+        "target": "n-wait",
+        "sourceHandle": "approved",
+        "type": "custom"
+      },
+      {
+        "id": "n-human-rejected-n-rej",
+        "source": "n-human",
+        "target": "n-rej",
+        "sourceHandle": "rejected",
+        "type": "custom"
+      },
+      {
+        "id": "n-wait-out-n-done",
+        "source": "n-wait",
+        "target": "n-done",
+        "sourceHandle": null,
+        "type": "custom"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "3568308f-0fc1-4519-8f1f-7c7358125f60",
+        "id": "2234b7b9-60f1-4e7e-8e1d-16f80b79f520"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "workflowInputs": [
+      {
+        "key": "amount",
+        "type": "number",
+        "required": true,
+        "defaultValue": 2500
+      }
+    ],
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
+  "showViewerNavigation": true,
+  "homePageId": "cf6be56d-722f-42e4-98bd-2bfe38836465",
+  "versionType": "version",
+  "appId": "efabd498-9033-48ce-888a-3875e8be4cef",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": false,
+  "isSynced": false
+}
