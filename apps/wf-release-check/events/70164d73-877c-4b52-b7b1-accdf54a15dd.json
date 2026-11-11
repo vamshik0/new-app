@@ -1,0 +1,14 @@
+{
+  "id": "70164d73-877c-4b52-b7b1-accdf54a15dd",
+  "name": "old_fetch_public_api failed",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "old_fetch_public_api failed",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "9a73e47d-2fc1-4633-a33c-21012788a3a9",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

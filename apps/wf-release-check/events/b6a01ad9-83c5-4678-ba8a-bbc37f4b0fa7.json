@@ -1,0 +1,14 @@
+{
+  "id": "b6a01ad9-83c5-4678-ba8a-bbc37f4b0fa7",
+  "name": "onClick → run-query",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "queryId": "3ee055fd-d832-4040-a9de-64b96178de39",
+    "actionId": "run-query",
+    "queryName": "new_hitl_approval"
+  },
+  "sourceId": "1dd1b98f-0f52-466c-a73c-901917ab9b7c",
+  "target": "component",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

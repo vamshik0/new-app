@@ -1,0 +1,14 @@
+{
+  "id": "72160d5b-d803-474b-86f6-759caeb8c059",
+  "name": "Confirm old_loop_js",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "old_loop_js passed",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "1dead427-caed-439c-a68b-b3ea4b38622b",
+  "target": "data_query",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1dead427-caed-439c-a68b-b3ea4b38622b",
+  "name": "old_loop_js",
+  "options": {
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "params": [
+      {
+        "key": "words",
+        "value": "{{[\"alpha\", \"beta\", \"gamma\"]}}"
+      }
+    ],
+    "workflowId": "aaa07ab2-992b-46a9-9dd7-d94e608c96fa",
+    "workflowVersionId": "v1",
+    "runOnPageLoad": true,
+    "syncExecution": true
+  },
+  "dataSourceId": "34898fff-e69e-474c-b6be-2bb7ab1a6f4c",
+  "appVersionId": "4a74e332-1266-4a61-bac8-1dcb0e982e69",
+  "kind": "workflows",
+  "dataSourceType": "static"
+}
