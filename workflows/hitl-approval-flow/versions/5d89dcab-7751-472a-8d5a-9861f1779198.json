@@ -39,7 +39,7 @@
         },
         "width": 206,
         "height": 40,
-        "selected": true
+        "selected": false
       },
       {
         "id": "n-human",
@@ -60,7 +60,7 @@
               "0fddc01d-7ff2-44df-92e9-8e9771fea267"
             ],
             "groups": [
-              "e0bc1e23-de93-4bfa-adaa-f6ec5253df25"
+              "4a57aec4-d8b8-45f4-a5db-68ce6fc405c4"
             ],
             "dynamic": "{{ [startTrigger.params.approverEmail].filter(Boolean) }}",
             "tokenBypass": false
@@ -138,7 +138,8 @@
           "description": "Finance approval for {{prepRequest.data.customer}}"
         },
         "width": 206,
-        "height": 40
+        "height": 40,
+        "selected": true
       },
       {
         "id": "n-if",
